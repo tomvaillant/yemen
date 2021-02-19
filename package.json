@@ -4,7 +4,7 @@
   "license": "MIT",
   "idyll": {
     "theme": "default",
-    "layout": "centered",
+    "layout": "Tufte",
     "css": "styles.css",
     "authorView": false
   },
