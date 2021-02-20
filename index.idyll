@@ -1,33 +1,37 @@
 [meta title:"Yemen" description:"Short description of your project" /]
 
+[img 
+  src:"./static/images/lorenzo_girl.jpg"
+  class: "full-width"
+  /]
+
+# Yemen : the full story
+
+[SummaryComponent /]
+
+[section]
+[blockquote]
+It is notable that the Feynman lectures (3 volumes) write about all of physics in 1800 pages, using only 2 levels of hierarchical headings: chapters and A-level heads in the text. It also uses the methodology of sentences which then cumulate sequentially into paragraphs, rather than the grunts of bullet points. Undergraduate Caltech physics is very complicated material, but it didn’t require an elaborate hierarchy to organize. [Cite 
+  authors:"Matthew Conlen and Jeffrey Heer"
+  title:"Idyll: A Markup Language for Authoring and Publishing Interactive Articles on the Web"
+  url:"https://idl.cs.washington.edu/files/2018-Idyll-UIST.pdf" 
+  id:"idyll-tufte"
+  venue: "Seattle, WA"
+  date:"2018"
+/]
+[footer]Edward Tufte, forum post, ‘Book design: advice and examples’[/footer]
+[/blockquote]
+
+[p]
+[label htmlFor:"mn-demo" class:"margin-toggle"]testing the label[/label]
+[input type:"checkbox" id:"mn-demo" class:"margin-toggle"/]
+[span class:"marginnote"]This is a margin note. Notice there isn’t a number preceding the note.[/span]
+[/p]
 // [var name:"state" value:0 /]
 // [CustomD3Component className:"d3-component" state:state /]
 // [button onClick:`state++`]
 //   Click Me.
 // [/button]
-
-[img 
-  src:"./static/images/lorenzo_girl.jpg"
-  fullWidth: true
-  /]
-
-# Yemen : the full story
-
-## Table of contents
-* Introduction
-* 200BC - 500AD
-* 500AD - 1300AD (Persians)
-* 1500AD - 1850AD (Mamluks)
-* Division of Yemen : the South
-* Division of Yemen : the North
-* Nasser in Yemen
-* Cold War & Soviet Collapse
-* The last decade
-* Alleged Iranian ties
-* War on food
-* Civilian stories
-* Moving forward
-
 
 ## Introduction
 UN agencies have designated it the “world’s worst humanitarian crisis”, with millions of families on the brink of famine. 
@@ -38,8 +42,13 @@ school and [a href:"https://yemeniarchive.org/en/database/unit/c15a5579abf5a59da
 Is there a resolution in sight? The media spotlight shines bright on the Houthis as a terrorist organisation, few of these stories mention 
 that the member countries of the UN Security Council have a small conflict of interest : they’ve been working a side-gig selling weapons to 
 Saudi Arabia which have been used with devastating effect to destroy the country’s food security and have had a heavy toll in civilian casualties.
+[span class:"sidenote"]Testing sidenotes[/span]
 
 Is there a resolution in sight? The media spotlight shines bright on the Houthis as a terrorist organisation, few of these stories mention that the member countries of the UN Security Council have a small conflict of interest : they’ve been working a side-gig selling weapons to Saudi Arabia which have been used with devastating effect to destroy the country’s food security and have had a heavy toll in civilian casualties.
+[span class:"marginnote"]
+  [Chart type:"time" data:complaintsByDate /]
+  Complaints sent to the CFPB each month
+[/span]
 
 How did we get here? I wanted to take a few steps back to examine an old country with a rich history we seldom read about, full of surprising twists and a 2 thousand year old repeated pattern of invasions by foreign interests and stubborn local resistance to those attempts.
 
@@ -49,25 +58,22 @@ For example, little did I know that my beloved morning mocha takes its name from
 
 Shibam is a walled desert city with our species’ oldest skyscrapers, built with mud over 500 years ago and maintained by its few remaining residents (and gravely at risk today). Once a significant caravan stop on the spice and incense route across the southern Arabian plateau, British explorer [a href:"http://www.nationalgeographic.com/travel/famous-travelers"]Freya Stark[/a], sister of Ned, dubbed the mud city “the Manhattan of the desert” in the 1930s.
 
-[img src:"./static/images/shibam.jpg"/]
+[img class:"full-width" src:"./static/images/shibam.jpg"/]
 
-[Youtube
-  id:"zm8OGIZ7"
-  play:true
-  audio:true
-  width:600
-  height:300
-  options:`{ controls: 1 }`
-  /]
+[figure class:"iframe-wrapper"]
+[iframe width:"450" height:"250" src:"https://www.youtube.com/embed/zm8OGIZ7tag" frameBorder:"0" allow:"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" /]
+[/figure]
 
 A beacon of mankind’s adaptability to the most formidable of environments.At the edge of a desolate expanse of desert known as the [a href:"http://ngm.nationalgeographic.com/features/world/asia/saudi-arabia/empty-quarter-text/1"]Empty Quarter[/a], it remains the oldest metropolis in the world to use vertical construction. 
 
 Among the two million current inhabitants of the Hadramaut , there are about 1,300 distinct tribes and dialects. Which can understandably make it difficult to govern.
 
 Dudes wear Janbiya’s as a symbol of honour, it should only come out of its sheath in extreme cases of conflict.
+
 [img src:"./static/images/janbiya.jpeg"/]
 
 The impossible island of Socotra.
+
 [img src:"./static/images/socotra.jpg"/]
 
 ## Time machine
@@ -169,6 +175,25 @@ The ruler of [Lahej](https://en.wikipedia.org/wiki/Lahej), who was in Aden at t
 
 With emigrants from  [India](https://en.wikipedia.org/wiki/India) , East Africa and Southeast Asia, Aden grew into a “world city”. In 1850, only 980 Arabs were registered as original inhabitants of the city. Some photos of the free zone : 
 
+[p]
+[var name:"stepperIndex" value:0 /]
+
+[Stepper currentStep:stepperIndex class:"full-width"]
+  [Graphic]
+    [img src:`"static/images/aden/aden" + stepperIndex + ".png"` /]
+  [/Graphic]
+
+  [Step]
+  [/Step]
+  [Step]
+  [/Step]
+  [Step]
+  [/Step]
+
+  [StepperControl /]
+[/Stepper]
+[/p]
+
 ## Division of Yemen : the North and the Ottoman
 The Ottomans took control over main regions of the north in 1848–1872 in spite of armed resistance by the Zaydi imams, who had defeated the Turks in 1568, 1613, and 1635. This totally makes sense to me, but al-Muayyad was probably turning in his grave. The Ottomans learned from their previous experience and worked on the disempowerment of local lords in the highland regions. The tribal chiefs were difficult to appease and an endless cycle of violence curbed the Ottoman efforts to pacify the land.
 
@@ -241,9 +266,10 @@ President Saleh benefited from his alliance with the Americans to use drone warf
 [img src:"./static/images/saleh_revolt.jpg"/]
 
 He was then replaced by another “interim” figurehead, Mansur Hadi. 
-
+[div class:"epigraph"]
 > The first act of the Hadi interim government was to continue an aggressive policy of austerity—which even in countries with a solid power base usually ignites all kinds of social consequences and leads to resistance, in a country where the population believes you are acting on foreign interests it’s not recommended… He put in place new kinds of economic extraction, new kinds of taxation, a rapid liberalization of the economy with the privatization of state land. More importantly he tried to impose a federation on Yemen, dividing the country into six distinct districts or states with no historical bearing but an obvious economic one. The federation plan assured that the majority of remaining oil, gas and offshore resources would go to a vast southern Yemen territory with the least amount of population. This would create an area ruled by two or three very corrupt officials and leaving the vast majority of Yemenis impoverished, living in resource-poor regions of the rest of the country. It was also an attempt to politically isolate the usual pain-in-the-ass Zaydis in the north who were demanding collective rights throughout the 2000s and 2010s (how dare they).
 ::Quoteback::
+[/epigraph]
 
 [Yemen’s Imposed Federal Boundaries - Yemen | ReliefWeb](https://reliefweb.int/report/yemen/yemens-imposed-federal-boundaries)
 
@@ -385,4 +411,4 @@ Other data cited in this investigation comes from publicly accessible informatio
 
 
 [Cite.References /]
-
+[/section]
