@@ -16,13 +16,13 @@ class SummaryComponent extends React.Component {
   render() {
     return (
     <div className="summary-container">
-      <div className="three col">
+      <div className="summary-icon-container">
         <div className="hamburger" id="summary-icon" onClick={this.toggleSummary.bind()}>
-            <span className="line"></span>
-            <span className="line"></span>
-            <span className="line"></span>
+          <span className="line"></span>
+          <span className="line"></span>
+          <span className="line"></span>
         </div>
-    </div>
+      </div>
       <div id="summary-fixed">
         <span>Table of Contents</span>
         <ul>
