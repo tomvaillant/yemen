@@ -1,31 +1,29 @@
 [meta title:"Yemen" description:"A historical perspective on modern events in Yemen." image:"./static/images/lorenzo_girl.jpg"/]
 
-[img 
-  src:"./static/images/lorenzo_girl.jpg"
-  class: "full-width"
-  /]
-
-# Yemen : the full story
-
-[SummaryComponent /]
-
-[section]
 // [var name:"state" value:0 /]
 // [CustomD3Component className:"d3-component" state:state /]
 // [button onClick:`state++`]
 //   Click Me.
 // [/button]
 // [link text:"" url:"" target:"_blank" /]
+[img 
+  src:"./static/images/lorenzo_girl.jpg"
+  class: "full-width"
+  /]
 
+# Yemen, the full story
+
+[SummaryComponent /]
+
+[section]
+[span class:"scroll-1"][/span]
 ## Introduction
 UN agencies have designated it the “world’s worst humanitarian crisis”, with millions of families on the brink of famine. 
 Only 7% of the population is aged above 55, which is abismal, today the median age is 20 years old, compared to 38 in Western countries. 
 The war has taken a heavy toll in [link text:"civilian casualties" url:"https://yemeniarchive.org/en/database/unit/c7b3a887c15756aa90b36b07287f9293fbc64490c715eed7ab1da4c107ed8781" target:"_blank" /], 
 school and [link text:"market bombings" url:"https://yemeniarchive.org/en/database/unit/c15a5579abf5a59daf1976632a77f1a2d939f91741701a1914f47f158006164c" target:"_blank" /].
 
-Is there a resolution in sight? The media spotlight shines bright on the Houthis as a terrorist organisation, few of these stories mention 
-that the member countries of the UN Security Council have a small conflict of interest : they’ve been working a side-gig selling weapons to 
-Saudi Arabia which have been used with devastating effect to destroy the country’s food security and have had a heavy toll in civilian casualties.
+Is there a resolution in sight? The media spotlight shines bright on the Houthis as a terrorist organisation, few of these stories mention that the member countries of the UN Security Council have a small conflict of interest : they’ve been working a side-gig selling weapons to Saudi Arabia which have been used with devastating effect to destroy the country’s food security and have had a heavy toll in civilian casualties.
 
 [Tweet id:"1349990675836764160" /]
 
@@ -56,7 +54,9 @@ The impossible island of Socotra.
 
 [img src:"./static/images/socotra.jpg"/]
 
-## Time machine
+[span class:"scroll-2"][/span]
+[br/]
+# 200BC - 500AD (Sabea and Christian heritage)
 
 Yemen is a territory on the southern tip of the Arabian peninsula which 24 million Yemenis call home, which is equivalent to the number of ::Americans in…::. In history it was also known as Arabia Felix. Felix means lucky or happy in Latin, it certainly has not lived up to its namesake. With its long sea border between early civilisations , Yemen has long existed at a crossroads of cultures with a strategic location in terms of trade on the west of the Arabian Peninsula - coveted by literally every empire that ever existed in the region.
 
@@ -72,7 +72,7 @@ Yemen is also a part of Biblical tales and legends. Noah knew it as “the land 
 
 In 25 BC the Roman expedition to Arabia Felix Aelius Gallus was ordered to lead a military campaign to establish Roman dominance over the Sabaeans. The Roman army of ten thousand men reached Marib, but was not able to conquer the city, according to Cassius Dio and Pliny the Elder. It took the Romans six months to reach Marib and sixty days to return to Egypt.  Thus begins a long, long stream of foreign douchebags convinced they can invade Yemen easily. They all failed.
 
-In the years before the birth of Christ the kingdom fell into chaos and two warring clans emerged, the Himyar and the Hamdan. I’m grossly vulgarising, but things got bloody for close to half a millenium, most of it between Christians and Jews. We’ll take a brief look anyway :
+In the years before the birth of Christ the kingdom fell into chaos and two warring clans emerged, the Himyar and the Hamdan. I’m grossly vulgarising, but things got bloody for close to half a millenium, most of it between Christians and Jews.
 
 Baby Jesus was born and humanity decided to count years from his birth, the Three Wise Men (magi from the East, supposedly Yemen) presented baby Jesus with myrrh and frankincense from the Yemeni 
 mountains.
@@ -85,7 +85,9 @@ The local Jews played hard to get with the Roman Empire’s relentless conversio
 
 In the early sixth century, the kings of Himyar converted to Judaism and swiftly began a campaign of persecution against local Christians. Yemenite Christians helped by the Romans and Eastern Christians, retaliated against the Jews and burned down several synagogues across the land. Conflict escalation continued until Himyarite Jewish warlords killed thousands of Christians in pursuit of vengeance, wiping out entire communities. Byzantium eventually forged a Christian alliance to install a Christian king in Yemen.  A tripartite military alliance of Eastern and Arab Christians successfully defeated the Hebrew warlords around 525–527 AD, a Christian client king was installed and as wise rulers do, he began his reign by burning an ancient Sabaean palace in Marib and building churches all over the place.
 
-## Persian
+[span class:"scroll-3"][/span]
+[br/]
+# 500AD - 1300AD (Muslim Dynasties)
 
 Around 570, “Ma‘d-Karib”, the half-brother of the King, requested support from the Sassanid empire (modern Iran),  they invaded Aden with a small fleet. Mad’s son Saif became king and the Sassanid’s had a foothold in Yemen. The Himyarites renounced Sassanid support soon after that, so a second invasion force was sent to secure their rule in the region - that didn’t last very long either. The rest of the country was ruled by independent clans.  
 
@@ -104,7 +106,10 @@ In the 13th century the Rasulid Dynasty built a large empire, the greatest Yemen
 
 Then things went downhill again.
 
-## Arrival of the Mamluks and the Ottoman
+[span class:"scroll-4"][/span]
+[br/]
+# 1500AD - 1850AD (Arrival of the Mamluks)
+
 In 1515 the Mamluks of Egypt swooped in and conquered most of Yemen. It was glorious, except that 15 years later the Ottoman Empire invaded and took control of the coastal regions. The Zaydi highland tribes of the Zaidi state emerged as national heroes by offering a stiff, vigorous resistance to both occupations. This resistance to occupation has not gone out of fashion.[label htmlFor:"mn-tripoli" class:"margin-toggle"][img src:"./static/icons/plus.png" class:"margin-icon" /][/label]
 [input type:"checkbox" id:"mn-tripoli" class:"margin-toggle"/]
 [span class:"marginnote"]
@@ -132,7 +137,9 @@ This is also when Yemen became the sole coffee producer in the world, I have lit
 
 After 1849 the Zaidi polity descended into chaos that lasted for decades.
 
-## Division of Yemen : the South and the British
+[span class:"scroll-5"][/span]
+[br/]
+# 1900s - Division of Yemen : the South
 The split of Yemen into the south and the north was not caused by Yemenites, but by British and Ottoman politics. 
 
 In the 19th century, the Sultan of Latej ruled in Aden, the Zaidi imamate continued to rule in Sana’a, and the Hadramaut was still ruled by tribes. The British needed a foothold along the gulf for trade, failing to secure it with the Zaidis they were able to consolidate a position in Aden with the Sultanate.
@@ -164,7 +171,8 @@ With emigrants from India, East Africa and Southeast Asia, Aden grew into a “w
 
 [span class:"scroll-6"][/span]
 [br /]
-## Division of Yemen : the North and the Ottoman
+# 1900s - Division of Yemen : the North
+
 The Ottomans took control over main regions of the north in 1848–1872 in spite of armed resistance by the Zaydi imams, who had defeated the Turks in 1568, 1613, and 1635. This totally makes sense to me, but al-Muayyad was probably turning in his grave.[label htmlFor:"mn-yahya" class:"margin-toggle"][img src:"./static/icons/plus.png" class:"margin-icon" /][/label]
 [input type:"checkbox" id:"mn-yahya" class:"margin-toggle"/]
 [span class:"marginnote"]
@@ -176,9 +184,9 @@ True to their past the Zaidis continued to be a pain in the butt, and many upris
 
 After the collapse of the Ottoman Empire in 1918, the Turks withdrew from the north completely and its independence under the Zaydi imams was internationally recognized in 1923. Imam Yahya was largely acclaimed by his Jewish subjects, who saw him as their protector (although he would not allow them to leave Yemen). 
 
-## Nasser In Yemen
-[span class:"scroll-7"][/span]
-In 1948 Yahya was assassinated, his son imam Ahmad bin Yahya was recognized by the tribes, his brothers and the Kings of Jordan and Saudi Arabia : he became King of an independent Yemen. During the height of the [Arab–Israeli conflict](https://en.wikipedia.org/wiki/Arab%E2%80%93Israeli_conflict), he took a controversial stance and permitted his remaining  Jewish subjects to immigrate to newly formed Israel, immediately 50,000 Jews emigrated out of Yemen. It’s a good thing they did, because things got nasty shortly after.
+[br/]
+# 1900s - Nasser In Yemen
+In 1948 Yahya was assassinated, his son imam Ahmad bin Yahya was recognized by the tribes, his brothers and the Kings of Jordan and Saudi Arabia : he became King of an independent Yemen. During the height of the Arab-Israeli conflict, he took a controversial stance and permitted his remaining  Jewish subjects to immigrate to newly formed Israel, immediately 50,000 Jews emigrated out of Yemen. It’s a good thing they did, because things got nasty shortly after.
 [label htmlFor:"mn-nasser" class:"margin-toggle"][img src:"./static/icons/plus.png" class:"margin-icon" /][/label]
 [input type:"checkbox" id:"mn-nasser" class:"margin-toggle"/]
 [span class:"marginnote"]
@@ -204,7 +212,9 @@ In the South of Yemen the most commonly used foreign language is English, but Ru
 “Seeking to supplant Western influence in the peninsula”
 PDF available in margin
 
-## Cold War and Soviet Collapse
+[span class:"scroll-7"][/span]
+[br/]
+# 1950s - Cold War and Soviet Collapse
 This is when metaphorical shit hit started hitting the hypothetical fan. We have to take a small step back from Yemen and look at the Middle-East as a broader canvas, it’ll help to consider the geopolitical situation today. 
 
 The Cold War installed a political order in the Middle-East that persisted from the 1940s until the collapse of the USSR in the early 1990s. This very sudden seismic change in world governance had dramatic consequences in the Middle-East.
@@ -228,7 +238,9 @@ While the Soviets began winding down their support for South Yemen (PDRY) before
 
 Meanwhile American allies, Saudi Arabia and Israel, maintained their relationship with the only remaining superpower, retaining the security umbrella and economic support. Cool beans. Except that when the Soviet Union collapsed, the strategic imperative to contain and battle the Eastern arch-nemesis through proxies in the region ended for the United States. Exactly a decade later the U.S. invades Afghanistan and Iraq, in 2001 and 2003. Iranians are naturally terrified (imagine if your neighbouring country was totally invaded), they decide to strengthen their resistance front with Syria and Hezbollah by developing asymmetric hybrid warfare means, recruiting by Shi’ite militias across the region. The civil wars in Yemen, Syria and Iraq created security vacuums that Saudi Arabia, Iran and Turkey projected their power into. 
 
-## Yemen contemporary civil war
+[span class:"scroll-200"][/span]
+[br/]
+# 2000s - Civil War
 
 [var name:"isaBlumi" value:`[
   {
@@ -241,8 +253,6 @@ Meanwhile American allies, Saudi Arabia and Israel, maintained their relationshi
 ]` /]
 [Quoteback quoteInfo:isaBlumi /]
  
-
-### The last decade
 President Saleh benefited from his alliance with the Americans to use drone warfare and Islam against his opponents, resulting in a war against his subjects. He imposed austerity against independent Yemeni polities who rose against him in 2011. 
 
 [img src:"./static/images/saleh.jpg"/]
@@ -262,7 +272,9 @@ In 2014 there was a collective outburst and the Houthis took control of the Yeme
 They went to the negotiating table but the Obama administration and the regional allies that would ultimately form the coalition in 2015 to put Hadi back in power. This led to a civil war between Yemenis demanding sovereignty and their rights to negotiating their future, and the outside world fighting to install the order they would prefer to rule in Yemen. He resigned a few years later.
 
 
-### Puppets of Iran
+[span class:"scroll-9"][/span]
+[br/]
+# Allegations of ties with Iran
 Today the simplified media picture is that the Houthis are “a revivalist movement for the Zaydi form of Shia Islam”, which “according to diplomats in Riyadh, Washington and London is backed by Tehran.” A line largely taken at face value by Western and regional media. Let’s look into this a little bit…
 
 “Houthi” is just a reference to a charismatic member of parliament in the 1990s who was representing his district that was being economically marginalized by diplomatic concessions that Ali Abdullah Saleh was making to the Saudis. Houthi was killed (of course) and several members of the family were assassinated. He became a martyr who’s name became emblematic to a sentiment shared by the broader community.
@@ -295,7 +307,6 @@ A Houthi leader said coalition accusations that Iran was smuggling weapons into 
   date:"2017"
 /]
 
-### The motive
 [var name:"blumiThree" value:`[
   {
     "author": "Isa Blumi",
@@ -344,7 +355,9 @@ The issue I’m facing is that the UN has shed all its facade of being a fair ar
 
 This doesn’t exonerate the Houthis either, who have been forcefully enlisting children and dropping landmines all over the place where civilians can step on them any time they want.
 
-# The war on food
+[span class:"scroll-23"][/span]
+# 2015 - The war on food
+
 Pulitzer Investigative report The Associated Press and interviews with al-Hakimi and other officials and aid workers show that thousands of families in Taiz are not getting international food aid intended for them — often because it has been seized by armed units that are allied with the Saudi-led, American-backed military coalition fighting in Yemen. 
 
 Across Yemen, factions and militias on all sides of the conflict have blocked food aid from going to groups suspected of disloyalty, diverted it to front-line combat units or sold it for profit on the black market, according to public records and confidential documents obtained by the AP and interviews with more than 70 aid workers, government officials and average citizens from six different provinces.  
@@ -398,9 +411,7 @@ The civil war in Yemen has caused the collapse of the country’s economy. Since
 
 To stave off famine, at least $1.9 billion is needed for 2021, as only $386 million in confirmed contributions have been received and, for the next six months alone, $860 million is required.  The shortage means 9 million people now receive half-rations, and without required assistance, starting in February, only quarter-rations can be provided. 
 
-// D3 Line Chart Famine Projection
-
-At the same time, today’s IPC analysis warns that the numbers of people facing Phase 4 food insecurity– the Emergency phase – is poised to increase from 3.6 million to 5 million people in the first half of 2021 – putting them too on the precipice of falling into catastrophic conditions and – without a change of course – possibly famine. [Cite 
+Today’s IPC analysis warns that the numbers of people facing Phase 4 food insecurity– the Emergency phase – is poised to increase from 3.6 million to 5 million people in the first half of 2021 – putting them too on the precipice of falling into catastrophic conditions and – without a change of course – possibly famine. [Cite 
   authors:"WFP"
   title:"Yemen Situation Report"
   url:"https://dss-prod-017575727556.s3.amazonaws.com/0/0/3/EXTSITREP_637516888988271214.pdf?AWSAccessKeyId=ASIAQIF4YKHCJBEVEU4K&Signature=mxDprKtPYeJeQvS8HPFcxJAWRhU%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEJz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCWV1LXdlc3QtMSJHMEUCIQCuyMokHDghbKnj%2FUbHjnWkPPNXTtelOKKMNIMh1MuJPQIgeyLv%2BxhIsDo5nUsaKWuH0RTxif1tOLyZ5rpFDRa4jtoqsAMI5f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARABGgwwMTc1NzU3Mjc1NTYiDEdkzSyaaLEmhSqg3SqEA2EErIY00kIUWxCcZIgrROzyqhJysinUK%2FZktwKrQWqcfC%2FGXTnyfZpa0K32nfhfMmvvJ7%2B3C5klHZIbfUxn40ZZZzyZHx28Ai8tqJ8brTMwMmubIVha7tIGJXcUEIzHn%2BrrV6c6P%2BqubVYcNC0ZVGQk1MFV3SNS25ISSEVUqxeqBXhL3VHEGSQjjQoqFr6m5jckruzmkBcJYmOtFEWZJ7SsC4a1aX1JxddqRlSwZ3txL9Iy1HKHFQLCD8N%2B0WzvrRjRyEZW08ZMuq0Oqh1ZJSFv6YASM9PhUF3UNYavUkdfCj8StdOT2ft3zdFeFKkIF7aEVZPupEc0lbF9IS1GGVKE6h0Gv1R%2Fkgr5RJNnEMeoNEwwGMa%2B4Wmzd%2FBu3WxPIbMafDlg6vDBSDM3i6NlvBlmv9LTJWevx%2FvtE8u92J5XKPv3lzX9M%2FMBVqYw2H69TvQ7u%2Fl2Zlrr3CKXqLK66LXHOo%2Bx4s1UJfEIdy03Abs0xI5JixLbCr5%2BJqB3i9EeCaq90S4w4PKkgwY66wFLKDTAX30IKb9UN6yTQOcgYN5INb%2Bs68f4fvLKc4xcKvQloNfHsZh7u4niGydR%2FbrkZv1vauOVgb%2FpmMVwcWfzosUMnCCtIfzw1uZ%2B4ySVnV6NXe7hU0gWgc5j3zKWDvf5WieXAVjT%2Bqe9DKbccYk6tcKqtY5TsK0%2FeZLHlwfvSY1dkcuioxW79E8x4Sq6G%2Fw%2BqEBDO%2BczA%2FIWkcAXmpwrYchXC9UFe%2FTq9wsn6aB7MiwxQ0Alu8ZRhxp%2BNR5XscEBA0jWIGV2sEA2iVtCGP9kDkyhpnO%2BGHuVV12tKMP2LlrxknNwuWK8FcG7&Expires=1617530946" 
@@ -409,11 +420,15 @@ At the same time, today’s IPC analysis warns that the numbers of people facing
   date:"2021"
 /]
 
+// D3 Line Chart Famine Projection
+
 [Tweet id:"1342484338059993089" /]
 
+[span class:"scroll-11"][/span]
+[br/]
 # What can we do?
 
-Unfortunately Yemen Peace Project closed a year ago. [Announcement: The YPP is closing — Yemen Peace Project](https://www.yemenpeaceproject.org/blog-x/ypp-closing), but the https://yemenfoundation.org/ is still active.
+Unfortunately the Yemen Peace Project closed a year ago. [Announcement: The YPP is closing — Yemen Peace Project](https://www.yemenpeaceproject.org/blog-x/ypp-closing), but the https://yemenfoundation.org/ is still active.
 
 Examples of longer solutions are detailed in [this interview with Yemen’s three foremost activists](https://merip.org/2019/03/roundtable-three-women-activists-advancing-peace-in-yemen/), all women. This includes writing letters to senators and making them available online. 
 
