@@ -11,7 +11,7 @@
   class: "full-width"
   /]
 
-# Yemen, the full story
+# Yemen : the full story
 
 [SummaryComponent /]
 
@@ -55,8 +55,7 @@ The impossible island of Socotra.
 [img src:"./static/images/socotra.jpg"/]
 
 [span class:"scroll-2"][/span]
-[br/]
-# 200BC - 500AD (Sabea and Christian heritage)
+# 200BC - 500AD (Christianity)
 
 Yemen is a territory on the southern tip of the Arabian peninsula which 24 million Yemenis call home, which is equivalent to the number of ::Americans in…::. In history it was also known as Arabia Felix. Felix means lucky or happy in Latin, it certainly has not lived up to its namesake. With its long sea border between early civilisations , Yemen has long existed at a crossroads of cultures with a strategic location in terms of trade on the west of the Arabian Peninsula - coveted by literally every empire that ever existed in the region.
 
@@ -86,7 +85,6 @@ The local Jews played hard to get with the Roman Empire’s relentless conversio
 In the early sixth century, the kings of Himyar converted to Judaism and swiftly began a campaign of persecution against local Christians. Yemenite Christians helped by the Romans and Eastern Christians, retaliated against the Jews and burned down several synagogues across the land. Conflict escalation continued until Himyarite Jewish warlords killed thousands of Christians in pursuit of vengeance, wiping out entire communities. Byzantium eventually forged a Christian alliance to install a Christian king in Yemen.  A tripartite military alliance of Eastern and Arab Christians successfully defeated the Hebrew warlords around 525–527 AD, a Christian client king was installed and as wise rulers do, he began his reign by burning an ancient Sabaean palace in Marib and building churches all over the place.
 
 [span class:"scroll-3"][/span]
-[br/]
 # 500AD - 1300AD (Muslim Dynasties)
 
 Around 570, “Ma‘d-Karib”, the half-brother of the King, requested support from the Sassanid empire (modern Iran),  they invaded Aden with a small fleet. Mad’s son Saif became king and the Sassanid’s had a foothold in Yemen. The Himyarites renounced Sassanid support soon after that, so a second invasion force was sent to secure their rule in the region - that didn’t last very long either. The rest of the country was ruled by independent clans.  
@@ -107,7 +105,6 @@ In the 13th century the Rasulid Dynasty built a large empire, the greatest Yemen
 Then things went downhill again.
 
 [span class:"scroll-4"][/span]
-[br/]
 # 1500AD - 1850AD (Arrival of the Mamluks)
 
 In 1515 the Mamluks of Egypt swooped in and conquered most of Yemen. It was glorious, except that 15 years later the Ottoman Empire invaded and took control of the coastal regions. The Zaydi highland tribes of the Zaidi state emerged as national heroes by offering a stiff, vigorous resistance to both occupations. This resistance to occupation has not gone out of fashion.[label htmlFor:"mn-tripoli" class:"margin-toggle"][img src:"./static/icons/plus.png" class:"margin-icon" /][/label]
@@ -138,7 +135,6 @@ This is also when Yemen became the sole coffee producer in the world, I have lit
 After 1849 the Zaidi polity descended into chaos that lasted for decades.
 
 [span class:"scroll-5"][/span]
-[br/]
 # 1900s - Division of Yemen : the South
 The split of Yemen into the south and the north was not caused by Yemenites, but by British and Ottoman politics. 
 
@@ -170,7 +166,6 @@ With emigrants from India, East Africa and Southeast Asia, Aden grew into a “w
 [/p]
 
 [span class:"scroll-6"][/span]
-[br /]
 # 1900s - Division of Yemen : the North
 
 The Ottomans took control over main regions of the north in 1848–1872 in spite of armed resistance by the Zaydi imams, who had defeated the Turks in 1568, 1613, and 1635. This totally makes sense to me, but al-Muayyad was probably turning in his grave.[label htmlFor:"mn-yahya" class:"margin-toggle"][img src:"./static/icons/plus.png" class:"margin-icon" /][/label]
@@ -213,7 +208,6 @@ In the South of Yemen the most commonly used foreign language is English, but Ru
 PDF available in margin
 
 [span class:"scroll-7"][/span]
-[br/]
 # 1950s - Cold War and Soviet Collapse
 This is when metaphorical shit hit started hitting the hypothetical fan. We have to take a small step back from Yemen and look at the Middle-East as a broader canvas, it’ll help to consider the geopolitical situation today. 
 
@@ -239,7 +233,6 @@ While the Soviets began winding down their support for South Yemen (PDRY) before
 Meanwhile American allies, Saudi Arabia and Israel, maintained their relationship with the only remaining superpower, retaining the security umbrella and economic support. Cool beans. Except that when the Soviet Union collapsed, the strategic imperative to contain and battle the Eastern arch-nemesis through proxies in the region ended for the United States. Exactly a decade later the U.S. invades Afghanistan and Iraq, in 2001 and 2003. Iranians are naturally terrified (imagine if your neighbouring country was totally invaded), they decide to strengthen their resistance front with Syria and Hezbollah by developing asymmetric hybrid warfare means, recruiting by Shi’ite militias across the region. The civil wars in Yemen, Syria and Iraq created security vacuums that Saudi Arabia, Iran and Turkey projected their power into. 
 
 [span class:"scroll-200"][/span]
-[br/]
 # 2000s - Civil War
 
 [var name:"isaBlumi" value:`[
@@ -273,7 +266,6 @@ They went to the negotiating table but the Obama administration and the regional
 
 
 [span class:"scroll-9"][/span]
-[br/]
 # Allegations of ties with Iran
 Today the simplified media picture is that the Houthis are “a revivalist movement for the Zaydi form of Shia Islam”, which “according to diplomats in Riyadh, Washington and London is backed by Tehran.” A line largely taken at face value by Western and regional media. Let’s look into this a little bit…
 
@@ -424,14 +416,13 @@ Today’s IPC analysis warns that the numbers of people facing Phase 4 food inse
 
 [Tweet id:"1342484338059993089" /]
 
-[span class:"scroll-11"][/span]
-[br/]
 # What can we do?
 
 Unfortunately the Yemen Peace Project closed a year ago. [Announcement: The YPP is closing — Yemen Peace Project](https://www.yemenpeaceproject.org/blog-x/ypp-closing), but the https://yemenfoundation.org/ is still active.
 
 Examples of longer solutions are detailed in [this interview with Yemen’s three foremost activists](https://merip.org/2019/03/roundtable-three-women-activists-advancing-peace-in-yemen/), all women. This includes writing letters to senators and making them available online. 
 
+[span class:"scroll-11"][/span]
 [Cite.References /]
 [br /]
 Other data cited in this investigation comes from publicly accessible information provided by the UN Food and Agriculture Organization (FAO), the World Health Organization (WHO), and the Integrated Food Security Phase Classification (IPC), a body partnered by UN agencies, governments and NGOs to provide analyses of situations of food insecurity and malnutrition.
