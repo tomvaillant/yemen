@@ -1,4 +1,4 @@
-[meta title:"Yemen" description:"Short description of your project" /]
+[meta title:"Yemen" description:"A historical perspective on modern events in Yemen." image:"./static/images/lorenzo_girl.jpg"/]
 
 [img 
   src:"./static/images/lorenzo_girl.jpg"
@@ -10,59 +10,39 @@
 [SummaryComponent /]
 
 [section]
-[blockquote]
-It is notable that the Feynman lectures (3 volumes) write about all of physics in 1800 pages, using only 2 levels of hierarchical headings: chapters and A-level heads in the text. It also uses the methodology of sentences which then cumulate sequentially into paragraphs, rather than the grunts of bullet points. Undergraduate Caltech physics is very complicated material, but it didn’t require an elaborate hierarchy to organize. [Cite 
-  authors:"Matthew Conlen and Jeffrey Heer"
-  title:"Idyll: A Markup Language for Authoring and Publishing Interactive Articles on the Web"
-  url:"https://idl.cs.washington.edu/files/2018-Idyll-UIST.pdf" 
-  id:"idyll-tufte"
-  venue: "Seattle, WA"
-  date:"2018"
-/]
-[footer]Edward Tufte, forum post, ‘Book design: advice and examples’[/footer]
-[/blockquote]
-
-[p]
-[label htmlFor:"mn-demo" class:"margin-toggle"]testing the label[/label]
-[input type:"checkbox" id:"mn-demo" class:"margin-toggle"/]
-[span class:"marginnote"]This is a margin note. Notice there isn’t a number preceding the note.[/span]
-[/p]
 // [var name:"state" value:0 /]
 // [CustomD3Component className:"d3-component" state:state /]
 // [button onClick:`state++`]
 //   Click Me.
 // [/button]
+// [link text:"" url:"" target:"_blank" /]
 
 ## Introduction
 UN agencies have designated it the “world’s worst humanitarian crisis”, with millions of families on the brink of famine. 
 Only 7% of the population is aged above 55, which is abismal, today the median age is 20 years old, compared to 38 in Western countries. 
-The war has taken a heavy toll in [a href:"https://yemeniarchive.org/en/database/unit/c7b3a887c15756aa90b36b07287f9293fbc64490c715eed7ab1da4c107ed8781"]civilian casualties[/a], 
-school and [a href:"https://yemeniarchive.org/en/database/unit/c15a5579abf5a59daf1976632a77f1a2d939f91741701a1914f47f158006164c"]market bombings[/a]. 
+The war has taken a heavy toll in [link text:"civilian casualties" url:"https://yemeniarchive.org/en/database/unit/c7b3a887c15756aa90b36b07287f9293fbc64490c715eed7ab1da4c107ed8781" target:"_blank" /], 
+school and [link text:"market bombings" url:"https://yemeniarchive.org/en/database/unit/c15a5579abf5a59daf1976632a77f1a2d939f91741701a1914f47f158006164c" target:"_blank" /].
 
 Is there a resolution in sight? The media spotlight shines bright on the Houthis as a terrorist organisation, few of these stories mention 
 that the member countries of the UN Security Council have a small conflict of interest : they’ve been working a side-gig selling weapons to 
 Saudi Arabia which have been used with devastating effect to destroy the country’s food security and have had a heavy toll in civilian casualties.
-[span class:"sidenote"]Testing sidenotes[/span]
+
+[Tweet id:"1349990675836764160" /]
 
 Is there a resolution in sight? The media spotlight shines bright on the Houthis as a terrorist organisation, few of these stories mention that the member countries of the UN Security Council have a small conflict of interest : they’ve been working a side-gig selling weapons to Saudi Arabia which have been used with devastating effect to destroy the country’s food security and have had a heavy toll in civilian casualties.
-[span class:"marginnote"]
-  [Chart type:"time" data:complaintsByDate /]
-  Complaints sent to the CFPB each month
-[/span]
 
 How did we get here? I wanted to take a few steps back to examine an old country with a rich history we seldom read about, full of surprising twists and a 2 thousand year old repeated pattern of invasions by foreign interests and stubborn local resistance to those attempts.
 
-For example, little did I know that my beloved morning mocha takes its name from the town of al-Mukha in Yemen. Coffee was discovered in Ethiopia, but it was first cultivated across the Red Sea in Yemen, quickly gaining popularity with Sufi mystics, who used it in all-night religious ceremonies. As cultivation expanded, coffee beans were exported from the port city of Mocha, but the local merchants retained a monopoly by prohibiting the sale or export of live seeds. In the 17th century, Dutch traders managed to smuggle seeds out of Yemen, and this led to the eventual spread of coffee cultivation throughout the world.
-
+For example, little did I know that my beloved morning mocha takes its name from the town of al-Mukha in Yemen[label htmlFor:"mn-coffee" class:"margin-toggle"][img src:"./static/icons/plus.png" class:"margin-icon" /][/label].
+[input type:"checkbox" id:"mn-coffee" class:"margin-toggle"/]
+[span class:"marginnote"]
 [img src:"./static/images/coffee.jpg"/]
+[/span]
+Coffee was discovered in Ethiopia, but it was first cultivated across the Red Sea in Yemen, quickly gaining popularity with Sufi mystics, who used it in all-night religious ceremonies. As cultivation expanded, coffee beans were exported from the port city of Mocha, but the local merchants retained a monopoly by prohibiting the sale or export of live seeds. In the 17th century, Dutch traders managed to smuggle seeds out of Yemen, and this led to the eventual spread of coffee cultivation throughout the world.
 
 Shibam is a walled desert city with our species’ oldest skyscrapers, built with mud over 500 years ago and maintained by its few remaining residents (and gravely at risk today). Once a significant caravan stop on the spice and incense route across the southern Arabian plateau, British explorer [a href:"http://www.nationalgeographic.com/travel/famous-travelers"]Freya Stark[/a], sister of Ned, dubbed the mud city “the Manhattan of the desert” in the 1930s.
 
 [img class:"full-width" src:"./static/images/shibam.jpg"/]
-
-[figure class:"iframe-wrapper"]
-[iframe width:"450" height:"250" src:"https://www.youtube.com/embed/zm8OGIZ7tag" frameBorder:"0" allow:"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" /]
-[/figure]
 
 A beacon of mankind’s adaptability to the most formidable of environments.At the edge of a desolate expanse of desert known as the [a href:"http://ngm.nationalgeographic.com/features/world/asia/saudi-arabia/empty-quarter-text/1"]Empty Quarter[/a], it remains the oldest metropolis in the world to use vertical construction. 
 
@@ -77,12 +57,12 @@ The impossible island of Socotra.
 [img src:"./static/images/socotra.jpg"/]
 
 ## Time machine
+
 Yemen is a territory on the southern tip of the Arabian peninsula which 24 million Yemenis call home, which is equivalent to the number of ::Americans in…::. In history it was also known as Arabia Felix. Felix means lucky or happy in Latin, it certainly has not lived up to its namesake. With its long sea border between early civilisations , Yemen has long existed at a crossroads of cultures with a strategic location in terms of trade on the west of the Arabian Peninsula - coveted by literally every empire that ever existed in the region.
 
 [img src:"./static/images/Arabia_historical_map.jpg"/]
 
-It is widely acclaimed as the home of Bilqis, Queen of Saba.  The [Sabaean Kingdom](https://en.wikipedia.org/wiki/Sabaeans)  came into existence from at least the eleventh century BC and the dominant force in the peninsula for almost a thousand years. That’s a very long time. Western republics were only founded 250 years ago.
-It was supposedly located in modern day Marib, which is famous today for being home to most of Yemen’s oil production. 
+It is widely acclaimed as the home of Bilqis, Queen of Saba. The [Sabaean Kingdom](https://en.wikipedia.org/wiki/Sabaeans) came into existence from at least the eleventh century BC and the dominant force in the peninsula for almost a thousand years. That’s a very long time. Western republics were only founded 250 years ago. It was supposedly located in modern day Marib, which is famous today for being home to most of Yemen’s oil production. 
 
 Bilqis is one of two women to figure prominently in the country’s history, yes all of two. The ancient Sabean people who lived under the Queen’s rule believed in Almaqah the moon God, they spoke an old Semitic language which is still used on the island of Socotra. It’s a beautiful place worth visiting.
 
@@ -90,7 +70,7 @@ Yemen is also a part of Biblical tales and legends. Noah knew it as “the land 
 
 [img src:"./static/images/sanaa.jpg"/]
 
-In 25 BC the Roman expedition to Arabia Felix Aelius Gallus was ordered to lead a military campaign to establish Roman dominance over the Sabaeans. The Roman army of ten thousand men reached  [Marib](https://en.wikipedia.org/wiki/Marib) , but was not able to conquer the city, according to  [Cassius Dio](https://en.wikipedia.org/wiki/Cassius_Dio)  and  [Pliny the Elder](https://en.wikipedia.org/wiki/Pliny_the_Elder). It took the Romans six months to reach Marib and sixty days to return to  [Egypt](https://en.wikipedia.org/wiki/Egypt) .  Thus begins a long, long stream of foreign douchebags convinced they can invade Yemen easily. They all failed.
+In 25 BC the Roman expedition to Arabia Felix Aelius Gallus was ordered to lead a military campaign to establish Roman dominance over the Sabaeans. The Roman army of ten thousand men reached Marib, but was not able to conquer the city, according to Cassius Dio and Pliny the Elder. It took the Romans six months to reach Marib and sixty days to return to Egypt.  Thus begins a long, long stream of foreign douchebags convinced they can invade Yemen easily. They all failed.
 
 In the years before the birth of Christ the kingdom fell into chaos and two warring clans emerged, the Himyar and the Hamdan. I’m grossly vulgarising, but things got bloody for close to half a millenium, most of it between Christians and Jews. We’ll take a brief look anyway :
 
@@ -99,27 +79,24 @@ mountains.
 
 70 years later Jerusalem fell to the Romans (I’d imagine during this period Roman invasions were common gossip), many Jews settled in Arabia Felix and  the Romans were intent on evangelising the locals, so the Abrahamic faith was propagated. 
 
-It took 300 years of intense warfare for the Himyar to come at as victors and unify Yemen into one country again, controlling the Red Sea and the coasts of the Gulf of Aden. Over those three centuries religion began playing a larger role and the Himyarites rejected  [polytheism](https://en.wikipedia.org/wiki/Polytheism), choosing instead to adhere to a consensual form of  [monotheism](https://en.wikipedia.org/wiki/Monotheism) .
+It took 300 years of intense warfare for the Himyar to come at as victors and unify Yemen into one country again, controlling the Red Sea and the coasts of the Gulf of Aden. Over those three centuries religion began playing a larger role and the Himyarites rejected polytheism, choosing instead to adhere to a consensual form of monotheism.
 
-The local Jews played hard to get with the Roman Empire’s relentless conversion attemps, they just couldn’t take no for an answer. sSeveral inscriptions have been found in  [Hebrew](https://en.wikipedia.org/wiki/Hebrew_language)  and  [Sabaean](https://en.wikipedia.org/wiki/Sabaean_language)  praising the ruling house in Jewish terms for *helping and empowering the People of [Israel](https://en.wikipedia.org/wiki/Israel) . 
+The local Jews played hard to get with the Roman Empire’s relentless conversion attemps, they just couldn’t take no for an answer. sSeveral inscriptions have been found in Hebrew and  Sabaean praising the ruling house in Jewish terms for *helping and empowering the People of Israel. 
 
-In the early sixth century, the kings of Himyar converted to Judaism and swiftly began a campaign of persecution against local Christians. Yemenite Christians helped by the Romans and Eastern Christians, retaliated against the Jews and burned down several synagogues across the land. Conflict escalation continued until Himyarite Jewish warlords killed thousands of Christians in pursuit of vengeance, wiping out entire communities. Byzantium eventually forged a Christian alliance to install a Christian king in Yemen.  A tripartite military alliance of Eastern and Arab Christians successfully defeated the Hebrew warlords around 525–527 AD, a Christian client king was installed on the Himyarite throne. Yay.
-
-As wise rulers do, he began his reign by burning an ancient Sabaean palace in  [Marib](https://en.wikipedia.org/wiki/Marib)  and building churches all over the place.
+In the early sixth century, the kings of Himyar converted to Judaism and swiftly began a campaign of persecution against local Christians. Yemenite Christians helped by the Romans and Eastern Christians, retaliated against the Jews and burned down several synagogues across the land. Conflict escalation continued until Himyarite Jewish warlords killed thousands of Christians in pursuit of vengeance, wiping out entire communities. Byzantium eventually forged a Christian alliance to install a Christian king in Yemen.  A tripartite military alliance of Eastern and Arab Christians successfully defeated the Hebrew warlords around 525–527 AD, a Christian client king was installed and as wise rulers do, he began his reign by burning an ancient Sabaean palace in Marib and building churches all over the place.
 
 ## Persian
 
 Around 570, “Ma‘d-Karib”, the half-brother of the King, requested support from the Sassanid empire (modern Iran),  they invaded Aden with a small fleet. Mad’s son Saif became king and the Sassanid’s had a foothold in Yemen. The Himyarites renounced Sassanid support soon after that, so a second invasion force was sent to secure their rule in the region - that didn’t last very long either. The rest of the country was ruled by independent clans.  
 
-This era marked the collapse of ancient South Arabian civilization and left a massive vacuum, which neatly prepared Yemen for the arrival of Islam, when  [Prophet Mohammed](https://en.wikipedia.org/wiki/Prophet_Mohammed)  sent his cousin  [Ali](https://en.wikipedia.org/wiki/Ali)  to  [Sana’a](https://en.wikipedia.org/wiki/Sana%27a)  and its surroundings around 630 AD. The advent of Islam to South Arabia in the seventh century ousted any remaining pantheon and monotheistic cults. Yemeni tribes took an active part in the Arab conquests and the construction of an Islamic state, and the tribal principal became a distinct form of communal organization in the area. 
+This era marked the collapse of ancient South Arabian civilization and left a massive vacuum, which neatly prepared Yemen for the arrival of Islam, when [Prophet Mohammed](https://en.wikipedia.org/wiki/Prophet_Mohammed) sent his cousin [Ali](https://en.wikipedia.org/wiki/Ali) to Sana’a and its surroundings around 630 AD. The advent of Islam to South Arabia in the seventh century ousted any remaining pantheon and monotheistic cults. Yemeni tribes took an active part in the Arab conquests and the construction of an Islamic state, and the tribal principal became a distinct form of communal organization in the area. 
 
-Muhammad, Shia and Sunni summarized. Wait but Why
-
-The Sassanid were of the Shia branch, the Ummayyad and Rashidun caliphates which failed to achieve effective control over the Yemenite tribes were Sunni. 695 AD Zayd, was the son of  [Ali ibn Husayn](https://en.wikipedia.org/wiki/Ali_ibn_Husayn) , and great-grandson of  [Ali](https://en.wikipedia.org/wiki/Ali) . He led  [an unsuccessful revolt](https://en.wikipedia.org/wiki/Revolt_of_Zayd_ibn_Ali)  against the  [Umayyad Caliphate](https://en.wikipedia.org/wiki/Umayyad_Caliphate) , in which he died. The event gave rise to the  [Zaidiyyah](https://en.wikipedia.org/wiki/Zaidiyyah)  sect of  [Shia Islam](https://en.wikipedia.org/wiki/Shia_Islam) , which holds him as the next Imam after  [Ali ibn Husayn](https://en.wikipedia.org/wiki/Ali_ibn_Husayn) . 
+The Sassanid were of the Shia branch, the Ummayyad and Rashidun caliphates which failed to achieve effective control over the Yemenite tribes were Sunni. 695 AD Zayd, was the son of [Ali ibn Husayn](https://en.wikipedia.org/wiki/Ali_ibn_Husayn), and great-grandson of Ali. He led an unsuccessful revolt against the [Umayyad Caliphate](https://en.wikipedia.org/wiki/Umayyad_Caliphate), in which he died. The event gave rise to the Zaidiyyah sect of Shia Islam, which holds him as the next Imam after Ali ibn Husayn. 
 
 I’ll skip the next 400 years of warfare, except to mention two noteworthy women.
-Asma Bint Shibab ruled  [Yemen](https://tgme.org/?s=Yemen)  alongside her husband in the 11th century, Ali al-Sulayhi. Asma Bint Shibab was given equal status as a monarch next to her husband. After the death of her husband, she continued to rule alongside her son and his wife. Following in her mother-in-law’s footsteps, Arwa al-Sulayhi ruled  [Yemen](https://tgme.org/?s=Yemen)  as an equal alongside two consecutive husbands.
-From the death of her second husband in 1101 until 1138, she ruled alone. Queen Arwa  [Arwa al-Sulayhi](https://en.wikipedia.org/wiki/Arwa_al-Sulayhi), wife of the son of the guy who united Greater Yemen (again), ended up leading the Sulayhid Dynasty and everyone took a small break from all the brutality. She is still remembered as a great and much loved sovereign, “the junior queen of Sheba”. When she had the audacity to die of old age (maybe) in 1138, five competing religious dynasties emerged and fought for control. 
+Asma Bint Shibab ruled Yemen alongside her husband in the 11th century, Ali al-Sulayhi. Asma Bint Shibab was given equal status as a monarch next to her husband. After the death of her husband, she continued to rule alongside her son and his wife. Following in her mother-in-law’s footsteps, Arwa al-Sulayhi as an equal alongside two consecutive husbands.
+
+From the death of her second husband in 1101 until 1138, she ruled the Sulayhid Dynasty and alone and everyone took a small break from all the brutality. She is still remembered as a great and much loved sovereign, “the junior queen of Sheba”. When she had the audacity to die of old age (maybe) in 1138, five competing religious dynasties emerged and fought for control. 
 
 From about this time onward there is a recognisable pattern of Zaidi imams in the northern highlands pissing everyone off by not getting conquered easily. Today, the Zaidis are still there, they now call themselves Ansar Allah as we’ll see later, and one of Trump’s parting gifts was to label them a terrorist organisation.
 
@@ -128,30 +105,30 @@ In the 13th century the Rasulid Dynasty built a large empire, the greatest Yemen
 Then things went downhill again.
 
 ## Arrival of the Mamluks and the Ottoman
-In 1515 the Mamluks of Egypt swooped in and conquered most of Yemen. It was glorious, except that 15 years later the Ottoman Empire invaded and took control of the coastal regions. The [Zaydi](https://en.wikipedia.org/wiki/Zaidiyyah) highland tribes of the Zaidi state emerged as national heroes by offering a stiff, vigorous resistance to both occupations. This resistance to occupation has not gone out of fashion.
-
+In 1515 the Mamluks of Egypt swooped in and conquered most of Yemen. It was glorious, except that 15 years later the Ottoman Empire invaded and took control of the coastal regions. The Zaydi highland tribes of the Zaidi state emerged as national heroes by offering a stiff, vigorous resistance to both occupations. This resistance to occupation has not gone out of fashion.[label htmlFor:"mn-tripoli" class:"margin-toggle"][img src:"./static/icons/plus.png" class:"margin-icon" /][/label]
+[input type:"checkbox" id:"mn-tripoli" class:"margin-toggle"/]
+[span class:"marginnote"]
 [img src:"./static/images/tripoli.jpg"/]
+[/span]
 
-Ottoman Sultan who shall remain unnamed:
-
-> Yemen is a land with no lord, an empty province. It would be not only possible but easy to capture, and should it be captured, it would be master of the lands of    and send every year a great amount of gold and jewels to [India](https://en.wikipedia.org/wiki/Indian_subcontinent) and  [Constantinople](https://en.wikipedia.org/wiki/Constantinople)
+An Ottoman Sultan who shall remain unnamed:
+> Yemen is a land with no lord, an empty province. It would be not only possible but easy to capture, and should it be captured, it would be master of the lands of  and send every year a great amount of gold and jewels to India and Constantinople.
 
 From the outside it would seem this way.  And then a few years later The Ottoman accountant-general in Egypt remarked :
 
 > We have seen no foundry like Yemen for our soldiers. Each time we have sent an expeditionary force there, it has melted away like salt dissolved in water.
 
-Out of 80,000 soldiers sent to Yemen from Egypt between 1539 – 1547, only 7,000 survived. The Ottomans accused the  [Zaydis](https://en.wikipedia.org/wiki/Zaidiyyah)  of being  [infidels](https://en.wikipedia.org/wiki/Kafir), I mean they wouldn’t surrender.
+Out of 80,000 soldiers sent to Yemen from Egypt between 1539 – 1547, only 7,000 survived. The Ottomans accused the Zaydis of being infidels. I mean... They wouldn’t surrender!
 
-In 1620 Al-Muayyad Muhammad inherited the imamate from his father, a solitary Zaidi state surrounded by Ottoman forces. He spent his entire reign slowly but surely expulsing the Ottomans from Yemen. 
+In 1620 Al-Muayyad Muhammad inherited the imamate from his father, a solitary Zaidi state surrounded by Ottoman forces. He spent his entire reign slowly but surely expulsing the Ottomans from Yemen. Near the end of the 17th century his successor Ali expelled all of the remaining Jews to a hot and arid region in the Tihama coastal plain. 
 
-Near the end of the 17th century his successor Ali expelled all of the remaining Jews to a hot and arid region in the  [Tihama](https://en.wikipedia.org/wiki/Tihama) coastal plain. 
+// ::SVG animation, jew illustration::
 
-::SVG animation, jew illustration::
-
-This is also when Yemen became the sole coffee producer in the world, I have little doubt that most of the European elite must began worrying their last remaining coffee source would fall into the wrong hands. So in the first half of the 18th century, they broke Yemen’s monopoly on coffee by smuggling out coffee trees and cultivating them in their own colonies in the East Indies, East Africa, the West Indies and Latin America. A moment of gratitude for our ancestors.
-
-[img src:"./static/images/coffeevillage.jpg"/]
-
+This is also when Yemen became the sole coffee producer in the world, I have little doubt that most of the European elite must began worrying their last remaining coffee source would fall into the wrong hands. So in the first half of the 18th century, they broke Yemen’s monopoly on coffee by smuggling out coffee trees and cultivating them in their own colonies in the East Indies, East Africa, the West Indies and Latin America. A moment of gratitude for our ancestors.[label htmlFor:"mn-coffeevillage" class:"margin-toggle"][img src:"./static/icons/plus.png" class:"margin-icon" /][/label]
+[input type:"checkbox" id:"mn-coffeevillage" class:"margin-toggle"/]
+[span class:"marginnote"]
+[img src:"./static/images/coffeevillage.jpeg"/]
+[/span]
 
 After 1849 the Zaidi polity descended into chaos that lasted for decades.
 
@@ -160,20 +137,11 @@ The split of Yemen into the south and the north was not caused by Yemenites, but
 
 In the 19th century, the Sultan of Latej ruled in Aden, the Zaidi imamate continued to rule in Sana’a, and the Hadramaut was still ruled by tribes. The British needed a foothold along the gulf for trade, failing to secure it with the Zaidis they were able to consolidate a position in Aden with the Sultanate.
 
-A couple years later while passing [Aden](https://en.wikipedia.org/wiki/Aden) for trading purposes, one of their sailing ships sank and Arab tribesmen boarded it and plundered its contents. I’d be willing to bet they bribed the tribesmen to do it because a few days later the  [British India government](https://en.wikipedia.org/wiki/British_India)  had the excuse they needed to dispatch a warship under the command of Captain Stafford Bettesworth Haines to demand compensation from the Sultanate. Haines proceeded to bombarding Aden from his merry warship in January 1839. 
+A couple years later while passing [link text:"Aden" url:"https://en.wikipedia.org/wiki/Aden" /]for trading purposes, one of their sailing ships sank and Arab tribesmen boarded it and plundered its contents. I’d be willing to bet they bribed the tribesmen to do it because a few days later the British India government had the excuse they needed to dispatch a warship under the command of Captain Stafford Bettesworth Haines to demand compensation from the Sultanate. Haines proceeded to bombarding Aden from his merry warship in January 1839. 
 
-Ship bombarding SVG
+The ruler of Lahej, who was in Aden at the time, ordered his guards to defend the port, but they failed in the face of overwhelming military and naval power. The British managed to occupy Aden and agreed to compensate the sultan with an annual payment of 6000 riyal. They subsequently British evicted the Sultan of Lahej and forced him to accept their “protection”. Aden was declared a free zone in 1850 CE. 
 
-The ruler of [Lahej](https://en.wikipedia.org/wiki/Lahej), who was in Aden at the time, ordered his guards to defend the port, but they failed in the face of overwhelming military and naval power. The British managed to occupy  [Aden](https://en.wikipedia.org/wiki/Aden)  and agreed to compensate the sultan with an annual payment of 6000 riyal. They subsequently British evicted the  [Sultan of Lahej](https://en.wikipedia.org/wiki/Sultanate_of_Lahej) and forced him to accept their “protection”. [Aden](https://en.wikipedia.org/wiki/Aden) was declared a [free zone](https://en.wikipedia.org/wiki/Free_economic_zone) in 1850 CE. [Cite 
-  authors:"Matthew Conlen and Jeffrey Heer"
-  title:"Idyll: A Markup Language for Authoring and Publishing Interactive Articles on the Web"
-  url:"https://idl.cs.washington.edu/files/2018-Idyll-UIST.pdf" 
-  id:"idyll-uist"
-  venue: "Seattle, WA"
-  date:"2018"
-/]
-
-With emigrants from  [India](https://en.wikipedia.org/wiki/India) , East Africa and Southeast Asia, Aden grew into a “world city”. In 1850, only 980 Arabs were registered as original inhabitants of the city. Some photos of the free zone : 
+With emigrants from India, East Africa and Southeast Asia, Aden grew into a “world city”. In 1850, only 980 Arabs were registered as original inhabitants of the city. Some photos of the free zone : 
 
 [p]
 [var name:"stepperIndex" value:0 /]
@@ -194,21 +162,30 @@ With emigrants from  [India](https://en.wikipedia.org/wiki/India) , East Africa 
 [/Stepper]
 [/p]
 
+[span class:"scroll-6"][/span]
+[br /]
 ## Division of Yemen : the North and the Ottoman
-The Ottomans took control over main regions of the north in 1848–1872 in spite of armed resistance by the Zaydi imams, who had defeated the Turks in 1568, 1613, and 1635. This totally makes sense to me, but al-Muayyad was probably turning in his grave. The Ottomans learned from their previous experience and worked on the disempowerment of local lords in the highland regions. The tribal chiefs were difficult to appease and an endless cycle of violence curbed the Ottoman efforts to pacify the land.
-
-True to their past the Zaidis continued to be a pain in the ass, and many uprisings later the Ottomans decided to grant autonomy to the Zaydi regions (again) in 1911. The Ottomans stuck to the mid-South and the imam Yahya ruled most of Upper Yemen, he lived in this house in Sana’a.
-
+The Ottomans took control over main regions of the north in 1848–1872 in spite of armed resistance by the Zaydi imams, who had defeated the Turks in 1568, 1613, and 1635. This totally makes sense to me, but al-Muayyad was probably turning in his grave.[label htmlFor:"mn-yahya" class:"margin-toggle"][img src:"./static/icons/plus.png" class:"margin-icon" /][/label]
+[input type:"checkbox" id:"mn-yahya" class:"margin-toggle"/]
+[span class:"marginnote"]
 [img src:"./static/images/yahya_home.jpg"/]
+[/span]
+The Ottomans learned from their previous experience and worked on the disempowerment of local lords in the highland regions. The tribal chiefs were difficult to appease and an endless cycle of violence curbed the Ottoman efforts to pacify the land.
+
+True to their past the Zaidis continued to be a pain in the butt, and many uprisings later the Ottomans decided to grant autonomy to the Zaydi regions (again) in 1911. The Ottomans stuck to the mid-South and the imam Yahya ruled most of Upper Yemen, he lived in this house in Sana’a.
 
 After the collapse of the Ottoman Empire in 1918, the Turks withdrew from the north completely and its independence under the Zaydi imams was internationally recognized in 1923. Imam Yahya was largely acclaimed by his Jewish subjects, who saw him as their protector (although he would not allow them to leave Yemen). 
 
 ## Nasser In Yemen
-In 1948 Yahya was assassinated, his son imam Ahmad bin Yahya was recognized by the tribes, his brothers and the Kings of Jordan and Saudi Arabia : he became King of an independent Yemen. During the height of the  [Arab–Israeli conflict](https://en.wikipedia.org/wiki/Arab%E2%80%93Israeli_conflict) , he took a controversial stance and permitted his remaining  [Jewish subjects](https://en.wikipedia.org/wiki/Yemenite_Jews)  to immigrate to newly formed Israel, immediately 50,000 Jews emigrated out of Yemen. It’s a good thing they did, because things got nasty shortly after.
-
+[span class:"scroll-7"][/span]
+In 1948 Yahya was assassinated, his son imam Ahmad bin Yahya was recognized by the tribes, his brothers and the Kings of Jordan and Saudi Arabia : he became King of an independent Yemen. During the height of the [Arab–Israeli conflict](https://en.wikipedia.org/wiki/Arab%E2%80%93Israeli_conflict), he took a controversial stance and permitted his remaining  Jewish subjects to immigrate to newly formed Israel, immediately 50,000 Jews emigrated out of Yemen. It’s a good thing they did, because things got nasty shortly after.
+[label htmlFor:"mn-nasser" class:"margin-toggle"][img src:"./static/icons/plus.png" class:"margin-icon" /][/label]
+[input type:"checkbox" id:"mn-nasser" class:"margin-toggle"/]
+[span class:"marginnote"]
 [img src:"./static/images/nasser.jpg"/]
+[/span]
 
-Ahmad was profoundly conservative, but nevertheless forged alliances with the  [Soviet Union](https://en.wikipedia.org/wiki/Soviet_Union) ,  [Communist China](https://en.wikipedia.org/wiki/China)  and the  [Republic of Egypt](https://en.wikipedia.org/wiki/Egypt) , all of which provided economic and military aid to the kingdom from 1957. These alliances were largely driven by his desire to expel the British from southern Yemen and recover the  [Aden Protectorate](https://en.wikipedia.org/wiki/Aden_Protectorate)  as part of Greater Yemen.
+Ahmad was profoundly conservative, but nevertheless forged alliances with the Soviet Union,  Communist China and the Republic of Egypt, all of which provided economic and military aid to the kingdom from 1957. These alliances were largely driven by his desire to expel the British from southern Yemen and recover the Aden Protectorate as part of Greater Yemen.
 
 Ahmad’s son Muhammad was a big fan of Nasser in Egypt, he invited the Egyptians to help modernise the country but Ahmad reversed these policies when he returned from his sick bed in Italy. This may or may not explain why when King Ahmad died in 1962,  the commander of the royal guards staged a coup in Sana’a and declared himself President of the Yemen Arab Republic, with Nasser’s full support, over Crown Prince Muhammad. 
 
@@ -216,9 +193,7 @@ Muhammad managed to escape and made his way to the highlands, where the Zaydi tr
 
 Why? Israel wanted to keep the Egyptian military busy in Yemen and make Nasser less likely to initiate a conflict in Sinai. The British colony in Aden was facing military difficulty with the Egyptian-supported guerrillas like the National Liberation Front, supporting resistance in the North was a sound tactic. 
 
-Over the course of the war Nasser supplied 70,000 troups and weapons to the Republicans, he also sent weapons and military aid to socialist organisations in the South. In 1967 the British declared the Aden emergency and left Yemen altogether, they’d recently lost India and the Suez Canal. 
-Aden: British Troops Start Final Evacuation Of Aden - British Pathé
-https://www.britishpathe.com/video/VLVAE67QWVWOZM8YIZMQNQ47JORXK-ADEN-BRITISH-TROOPS-START-FINAL-EVACUATION-OF-ADEN/query/aden+evacuation
+Over the course of the war Nasser supplied 70,000 troups and weapons to the Republicans, he also sent weapons and military aid to socialist organisations in the South. In 1967 the British declared the Aden emergency and left Yemen altogether, they’d recently lost India and the Suez Canal. [link text:"Aden: British Troops Start Final Evacuation Of Aden - British Pathé" url:"https://www.britishpathe.com/video/VLVAE67QWVWOZM8YIZMQNQ47JORXK-ADEN-BRITISH-TROOPS-START-FINAL-EVACUATION-OF-ADEN/query/aden+evacuation" target:"_blank" /]
 
 A few months later the People’s Republic of Southern Yemen was created and is rebranded the Marxist People’s Democratic Republic of Yemen (much sexier) in 1970, also known as South Yemen (for close friends and family) or a “client state of Moscow”. 
 
@@ -236,11 +211,10 @@ The Cold War installed a political order in the Middle-East that persisted from 
 
 With Syria and Lebanon gaining their sovereignty in 1946, Algeria throwing off French rule in 1962, almost all former European colonial holdings had become independent Arab states. Each of which had serious economic, political and security issues as they struggled to transition or were mired in power grabs from vying power centres. At this time Moscow and Washington are both willingly offering support and protection to fledging governments who desperately needed it.
 
-The chess board ended up looking something like this. 
+// The chess board ended up looking something like this. 
+// D3 ME Geomap / American vs Soviet Allies
 
-::D3 ME Geomap / American vs Soviet Allies::
-
-Conservative monarchies, like Jordan and Saudi Arabia, fell squarely into the camp of the United States, risking their domestic legitimacy to ensure regime security. Syria, Libya, Iraq, South Yemen and Egypt (up until 1978), states whose legitimacy depended on the flouting of European and American norms, aligned themselves with the Soviet Union. Turkey, Iran and Israel all tacked towards the west, putting them squarely in the U.S. camp. Until Egypt surprised everyone at the [Camp David accords](https://en.wikipedia.org/wiki/Camp_David_Accords), a clear move over to the US side. [Six-Day War - Wikipedia](https://en.wikipedia.org/wiki/Six-Day_War)
+Conservative monarchies, like Jordan and Saudi Arabia, fell squarely into the camp of the United States, risking their domestic legitimacy to ensure regime security. Syria, Libya, Iraq, South Yemen and Egypt (up until 1978), states whose legitimacy depended on the flouting of European and American norms, aligned themselves with the Soviet Union. Turkey, Iran and Israel all tacked towards the west, putting them squarely in the U.S. camp. Until Egypt surprised everyone at the [Camp David accords](https://en.wikipedia.org/wiki/Camp_David_Accords), a clear move over to the US side.
 
 In 1991 when Soviet Union ended, Syria, Iraq, Libya, Yemen (South) had to reconfigure their economic and political social contracts as well as their foreign policies to deal with the loss of their patron. All of these countries are mired in civil war today.  Libya, which under Qaddafi had the reputation as the “bad boy” of the Arab world, voluntarily renounced its nuclear weapons program, and quickly improved its relations with the United States.  Iraq under Saddam Hussein saw opportunity, recklessly invading Kuwait, seemingly on the assumption that the United States would be less vigilant over the regional political order as the Cold War wound down. 
 
@@ -248,16 +222,25 @@ Syria’s response to what was perceived as a threat posed by the loss of its So
 
 In Yemen, the end of the Cold War brought unification between North and South. 
 
-::Two flags SVG animation::
+// Two flags SVG animation
 
 While the Soviets began winding down their support for South Yemen (PDRY) before the Cold War ended, Salim al-Bidh from South Yemen and Ali Abdullah Saleh from the North began discussing unification, which was consummated in 1990. The leadership in the South was compelled to strike the best deal possible with the North. Yemen became the only Republic in the region. 
 
 Meanwhile American allies, Saudi Arabia and Israel, maintained their relationship with the only remaining superpower, retaining the security umbrella and economic support. Cool beans. Except that when the Soviet Union collapsed, the strategic imperative to contain and battle the Eastern arch-nemesis through proxies in the region ended for the United States. Exactly a decade later the U.S. invades Afghanistan and Iraq, in 2001 and 2003. Iranians are naturally terrified (imagine if your neighbouring country was totally invaded), they decide to strengthen their resistance front with Syria and Hezbollah by developing asymmetric hybrid warfare means, recruiting by Shi’ite militias across the region. The civil wars in Yemen, Syria and Iraq created security vacuums that Saudi Arabia, Iran and Turkey projected their power into. 
 
 ## Yemen contemporary civil war
-Isa Blumi. [Destroying Yemen: What Chaos in Arabia Tells Us about the World: Blumi, Isa: 9780520296145: Amazon.com: Books](https://www.amazon.com/Destroying-Yemen-Chaos-Arabia-Tells/dp/0520296141)
 
-Yemen’s travails during and since the Arab Spring uprisings of 2011 had often been overlooked by the Western media. Interest in the country being mostly limited to Al-Qaeda. Bin Laden supposedly originates from the Marib region (Bilqis’ famous capital, but thousands of years later). Yet the most important development in Yemen since 2011 has been the rise and expansion of a group commonly known as the Houthis, also known as Ansar Allah. 
+[var name:"isaBlumi" value:`[
+  {
+    "author": "Dr Isa Blumi",
+    "quote": "Yemen’s travails during and since the Arab Spring uprisings of 2011 had often been overlooked by the Western media. Interest in the country being mostly limited to Al-Qaeda. Bin Laden supposedly originates from the Marib region (Bilqis’ famous capital, but thousands of years later). Yet the most important development in Yemen since 2011 has been the rise and expansion of a group commonly known as the Houthis, also known as Ansar Allah.",
+    "twitter": "@isablumi",
+    "url": "https://www.amazon.com/Destroying-Yemen-Chaos-Arabia-Tells/dp/0520296141",
+    "title": "Destroying Yemen: What Chaos in Arabia Tells Us about the World",
+  }
+]` /]
+[Quoteback quoteInfo:isaBlumi /]
+ 
 
 ### The last decade
 President Saleh benefited from his alliance with the Americans to use drone warfare and Islam against his opponents, resulting in a war against his subjects. He imposed austerity against independent Yemeni polities who rose against him in 2011. 
@@ -265,13 +248,14 @@ President Saleh benefited from his alliance with the Americans to use drone warf
 [img src:"./static/images/saleh.jpg"/]
 [img src:"./static/images/saleh_revolt.jpg"/]
 
-He was then replaced by another “interim” figurehead, Mansur Hadi. 
-[div class:"epigraph"]
-> The first act of the Hadi interim government was to continue an aggressive policy of austerity—which even in countries with a solid power base usually ignites all kinds of social consequences and leads to resistance, in a country where the population believes you are acting on foreign interests it’s not recommended… He put in place new kinds of economic extraction, new kinds of taxation, a rapid liberalization of the economy with the privatization of state land. More importantly he tried to impose a federation on Yemen, dividing the country into six distinct districts or states with no historical bearing but an obvious economic one. The federation plan assured that the majority of remaining oil, gas and offshore resources would go to a vast southern Yemen territory with the least amount of population. This would create an area ruled by two or three very corrupt officials and leaving the vast majority of Yemenis impoverished, living in resource-poor regions of the rest of the country. It was also an attempt to politically isolate the usual pain-in-the-ass Zaydis in the north who were demanding collective rights throughout the 2000s and 2010s (how dare they).
-::Quoteback::
-[/epigraph]
-
-[Yemen’s Imposed Federal Boundaries - Yemen | ReliefWeb](https://reliefweb.int/report/yemen/yemens-imposed-federal-boundaries)
+He was then replaced by another “interim” figurehead, Mansur Hadi. The first act of the Hadi interim government was to continue an aggressive policy of austerity—which even in countries with a solid power base usually ignites all kinds of social consequences and leads to resistance, in a country where the population believes you are acting on foreign interests it’s not recommended… He put in place new kinds of economic extraction, new kinds of taxation, a rapid liberalization of the economy with the privatization of state land. More importantly he tried to impose a federation on Yemen, dividing the country into six distinct districts or states with no historical bearing but an obvious economic one. The federation plan assured that the majority of remaining oil, gas and offshore resources would go to a vast southern Yemen territory with the least amount of population. This would create an area ruled by two or three very corrupt officials and leaving the vast majority of Yemenis impoverished, living in resource-poor regions of the rest of the country. It was also an attempt to politically isolate the usual pain-in-the-ass Zaydis in the north who were demanding collective rights throughout the 2000s and 2010s (how dare they). [Cite 
+  authors:"Tobias Thiel"
+  title:"Yemen’s Imposed Federal Boundaries"
+  url:"https://reliefweb.int/report/yemen/yemens-imposed-federal-boundaries" 
+  id:"yemen-boundaries"
+  venue: "Yemen"
+  date:"2015"
+/]
 
 In 2014 there was a collective outburst and the Houthis took control of the Yemeni capital, Sana’a, having pressured the country’s transitional president, Abd Rabbu Mansour Hadi, a key US ally in the war against Al-Qaeda, into submitting his resignation. 
 
@@ -285,10 +269,16 @@ Today the simplified media picture is that the Houthis are “a revivalist movem
 
 Now we’ve seen that the Zaydi branch of Shia Islam is unique to Northern Yemen, it’s existed there for centuries so this isn’t really a “revivalist” movement. The Zaydis are refusing to bend the knee to Daenerys, like they always have. Also theologically Zaydism is closer to Sunni Islam than to Shia Islam. 
 
-> The claim, often cited in corporate media, that the Zaydis and their allies are “puppets of” or “aligned with” Iran, and have now been labelled as a “terrorist organisation” by the Trump administration. The narrative conveniently justifies bombing civilians, and Iran historically has no connections to Yemen. Yemen is completely surrounded. There’s an embargo and there’s absolutely nothing that can get through without the sanction of the countries that are placing the embargo on Yemen. Any ship that goes to the port of Hodeidah has to go through quarantine. They have to be docked in Djibouti, they are heavily inspected, and then they are escorted to Hodeidah. The only things that come through are food and medicines, it’ll be difficult for Iran to smuggle  large-scale weapon shipments into Yemen.
-::Quoteback::
-
-(I’d just add there was a historical tie given the Sassanid invasion, the foundation for any good friendship.)
+[var name:"blumiTwo" value:`[
+  {
+    "author": "Dr Isa Blumi",
+    "quote": "The claim, often cited in corporate media, that the Zaydis and their allies are “puppets of” or “aligned with” Iran, and have now been labelled as a “terrorist organisation” by the Trump administration. The narrative conveniently justifies bombing civilians, and Iran historically has no connections to Yemen. Yemen is completely surrounded. There’s an embargo and there’s absolutely nothing that can get through without the sanction of the countries that are placing the embargo on Yemen. Any ship that goes to the port of Hodeidah has to go through quarantine. They have to be docked in Djibouti, they are heavily inspected, and then they are escorted to Hodeidah. The only things that come through are food and medicines, it’ll be difficult for Iran to smuggle  large-scale weapon shipments into Yemen.",
+    "twitter": "@isablumi",
+    "url": "https://www.thenation.com/article/archive/yemen-isa-blumi-houthi/",
+    "title": "Chaos in Yemen: A Conversation With Isa Blumi",
+  }
+]` /]
+[Quoteback quoteInfo:blumiTwo /]
 
 The Arab Republic of Yemen under Ali Abdullah Saleh had the biggest military in the region. In terms of numbers and weapons, it was the most heavily armed country. The Houthis have transformed themselves slowly over the past decade into a militia, they’ve had time to accumulate and store weapons. So the argument that the well-armed Yemenis, who are resisting the invasion of their country, are being armed by Iran is very likely untrue. I’m having difficult giving credibility to anyone who does without solid proof. I’d venture a wild guess that everyone is nervous about the effect that a Houthi takeover of the west coast of Yemen would have on the Bab al Mandeb strait, which is a conduit for around 5 per cent of all world oil trade. 
 
@@ -296,71 +286,111 @@ Brigadier General Ahmed Asseri, spokesman for the Arab coalition fighting the Ho
 “We observe that the Kornet anti-tank weapon is on the ground, whereas before it wasn’t in the arsenal of the Yemeni army or of the Houthis. It came later.”
 
 A Houthi leader said coalition accusations that Iran was smuggling weapons into Yemen were an attempt to cover up Saudi Arabia’s failure to prevail in an intractable war in which at least 10,000 people have been killed and the country is on the brink of famine.
-“The Saudis don’t want to admit their failings so they are searching for false justifications … after two years of the aggression that the United States and Britain are involved in,” the Houthi leader, who declined to be named, told Reuters.
-https://www.reuters.com/article/us-yemen-iran-houthis-idUSKBN16S22R
-
-[Exclusive: Iran steps up support for Houthis in Yemen’s war - sources | Reuters](https://www.reuters.com/article/us-yemen-iran-houthis-idUSKBN16S22R)
-
+“The Saudis don’t want to admit their failings so they are searching for false justifications … after two years of the aggression that the United States and Britain are involved in,” the Houthi leader, who declined to be named, told Reuters. [Cite 
+  authors:"Jonathan Saul, Parisa Hafezi, Michael Georgy"
+  title:"Iran steps up support for Houthis in Yemen’s war"
+  url:"https://www.reuters.com/article/us-yemen-iran-houthis-idUSKBN16S22R" 
+  id:"houthi-iran"
+  venue: "Reuters"
+  date:"2017"
+/]
 
 ### The motive
-Yemen was one of the last untapped stores of cumulative wealth. The people of Yemen, who in World Bank statistics are very poor, are actually quite wealthy in terms of their resources, networks, infrastructure, and savings. War in the country undermines the capacity of the people’s ability to resist. Because of the considerable amounts of oil and gas wealth, both on land and off shore, as well as its agricultural potential and its fisheries—which have been largely untouched until now—Yemen is a prize waiting to be properly harnessed.
+[var name:"blumiThree" value:`[
+  {
+    "author": "Isa Blumi",
+    "quote": "Yemen was one of the last untapped stores of cumulative wealth. The people of Yemen, who in World Bank statistics are very poor, are actually quite wealthy in terms of their resources, networks, infrastructure, and savings. War in the country undermines the capacity of the people’s ability to resist. Because of the considerable amounts of oil and gas wealth, both on land and off shore, as well as its agricultural potential and its fisheries—which have been largely untouched until now—Yemen is a prize waiting to be properly harnessed.",
+    "twitter": "@isablumi",
+    "url": "https://www.thenation.com/article/archive/yemen-isa-blumi-houthi/",
+    "title": "Chaos in Yemen: A Conversation With Isa Blumi",
+  }
+]` /]
+[Quoteback quoteInfo:blumiThree /]
 
-From a UN Security Council Report
-> The Panel continued its investigations into the financial networks of designated individuals and has identified that Khaled Ali Abdullah Saleh has a significant role in the management of financial assets on behalf of listed individuals Ali Abdullah Saleh (YEi.003) and Ahmed Ali Abdullah Saleh (YEi.005). The Panel has identified suspicious transfers of significant funds during the period 2014-2016, involving six companies and five banks in five countries, that certainly fall well outside the normal fund management practices of high-wealth individuals. The Panel has also identified a company named Raydan Investments and accounts used by Khaled Ali Abdullah Saleh to launder $83,953,782 within a three-week period in December 2014. 
+From a UN Security Council Report :
 
-> The financial activities, in terms of regional black market arms trafficking, of Fares Mohammed Mana’a (SOi.008) have also come to the attention of the Panel, in particular since he was appointed as minister of state in the new Sana’a-based government of 28 November and has known connections to both Ali Abdullah Saleh (YEi.003) and the Houthis. He is freely travelling on a Yemeni diplomatic passport, including within the Schengen area. This case is just one illustration of how opportunistic businesspeople and criminal entities are benefiting from the conflict using governmental privileges and immunities. It is in their vested 
+> The Panel continued its investigations into the financial networks of designated individuals and has identified that Khaled Ali Abdullah Saleh has a significant role in the management of financial assets on behalf of listed individuals Ali Abdullah Saleh (YEi.003) and Ahmed Ali Abdullah Saleh (YEi.005). The Panel has identified suspicious transfers of significant funds during the period 2014-2016, involving six companies and five banks in five countries, that certainly fall well outside the normal fund management practices of high-wealth individuals. The Panel has also identified a company named Raydan Investments and accounts used by Khaled Ali Abdullah Saleh to launder $83,953,782 within a three-week period in December 2014. The financial activities, in terms of regional black market arms trafficking, of Fares Mohammed Mana’a (SOi.008) have also come to the attention of the Panel, in particular since he was appointed as minister of state in the new Sana’a-based government of 28 November and has known connections to both Ali Abdullah Saleh (YEi.003) and the Houthis. He is freely travelling on a Yemeni diplomatic passport, including within the Schengen area. This case is just one illustration of how opportunistic businesspeople and criminal entities are benefiting from the conflict using governmental privileges and immunities. It is in their vested 
 
-From offshore-mag [On offshore oil](https://www.offshore-mag.com/business-briefs/company-news/article/16778217/yemen-accepts-bids-from-25-companies-for-offshore-oil-blocks)
-> The Ministry of Oil and Minerals has accepted 25 out of 30 bids received from international companies for exploration rights in 11 offshore oil blocks, according to reports from the Middle East. Yemen offered the blocks as part of a plan to reverse its declining oil output and boost production to around 500,000 b/d from about 330,000 b/d in 2007, the reports said. Accepted companies include ExxonMobil Corp., Total, Statoil, and Repsol, according to a statement.
+[link text:"Offshore Oil mag" url:"https://www.offshore-mag.com/business-briefs/company-news/article/16778217/yemen-accepts-bids-from-25-companies-for-offshore-oil-blocks" target:"_blank" /]:
 
-> The ongoing war has halted Yemen’s exports, pressured the currency’s exchange rate, accelerated inflation, severely limited food and fuel imports, and caused widespread damage to infrastructure. Prior to the start of the conflict in 2014, Yemen was highly dependent on declining oil and gas resources for revenue. 
+> The Ministry of Oil and Minerals has accepted 25 out of 30 bids received from international companies for exploration rights in 11 offshore oil blocks, according to reports from the Middle East. Yemen offered the blocks as part of a plan to reverse its declining oil output and boost production to around 500,000 b/d from about 330,000 b/d in 2007, the reports said. Accepted companies include ExxonMobil Corp., Total, Statoil, and Repsol, according to a statement. The ongoing war has halted Yemen’s exports, pressured the currency’s exchange rate, accelerated inflation, severely limited food and fuel imports, and caused widespread damage to infrastructure. Prior to the start of the conflict in 2014, Yemen was highly dependent on declining oil and gas resources for revenue. 
 
 A lot of people have gotten involved. Fighter jets  and ground forces from  Egypt, Morocco, Jordan, Sudan, the UAE, Kuwait, Qatar, Bahrain and Academy. Djibouti, Eritrea and Somalia made their airspace, territorial waters, and military bases available to the coalition. The United States and United Kingdom have provided intelligence and logistical support, they also have boots on the ground. It seems to me that a lot of governments have deeply humanitarian intentions about Yemen.
 
-The issue I’m facing is that the UN has shed all its facade of being a fair arbiter in conflict. Whatever the UN special envoy says doesn’t have any real meaning or value because whatever he proposes is clearly in the interest of the Security Council and its five permanent members the US, UK, France, Russia, China— literally all of which have recently sold arms to Saudi Arabia, have oil companies present on the territory (Total, ExxonMobil, Hunter Oil, BP) and have expressed no willingness to negotiate or pursue a real long-term end of this conflict. 
-
-This doesn’t exonerate the Houthis either, who have been forcefully enlisting children and dropping landmines all over the place where civilians can step on them any time they want.
-
-[Germany approves over €1 billion in arms deals to Middle East | News | DW | 03.01.2021](https://www.dw.com/en/germany-approves-over-1-billion-in-arms-deals-to-middle-east/a-56118758)
-[UK authorised £1.4bn of arms sales to Saudi Arabia after exports resumed | Arms trade | The Guardian](https://www.theguardian.com/world/2021/feb/09/uk-authorised-14bn-of-arms-sales-to-saudi-arabia-after-exports-resumed)
-https://www.bomobile.total.com/uploads/gestion_media/Total_in_Yemen_EN_ARA_1.pdf
-[Total acquires an interest in and becomes operator of Block 3 exploration license in Yemen | Total.com](https://www.total.com/media/news/press-releases/yemen-total-acquiert-une-participation-dans-le-permis-dexploration-bloc-3-et-en-devient-loperateur)
-https://corporate.exxonmobil.com/-/media/Global/Files/investor-relations/annual-meeting-materials/annual-report-summaries/2019-Summary-Annual-Report.pdf
-https://made-in-france.disclose.ngo/en/
+The issue I’m facing is that the UN has shed all its facade of being a fair arbiter in conflict. Whatever the UN special envoy says doesn’t have any real meaning or value because whatever he proposes is clearly in the interest of the Security Council and its five permanent members the US, UK, France, Russia, China— literally all of which have recently sold arms to Saudi Arabia, have oil companies present on the territory (Total, ExxonMobil, Hunter Oil, BP) and have expressed no willingness to negotiate or pursue a real long-term end of this conflict. [Cite 
+  authors:"DW"
+  title:"Germany approves over €1 billion in arms deals to Middle East"
+  url:"https://www.dw.com/en/germany-approves-over-1-billion-in-arms-deals-to-middle-east/a-56118758" 
+  id:"germany-weapons"
+  venue: "DW"
+  date:"2021"
+/] [Cite 
+  authors:"Dan Sabbagh - Guardian"
+  title:"UK authorised £1.4bn of arms sales to Saudi Arabia after exports resumed"
+  url:"https://www.theguardian.com/world/2021/feb/09/uk-authorised-14bn-of-arms-sales-to-saudi-arabia-after-exports-resumed" 
+  id:"uk-arms-sale"
+  venue: "Guardian"
+  date:"2017"
+/] [Cite 
+  authors:"Exxon Mobil"
+  title:"2019 Annual Investor Report"
+  url:"https://corporate.exxonmobil.com/-/media/Global/Files/investor-relations/annual-meeting-materials/annual-report-summaries/2019-Summary-Annual-Report.pdf" 
+  id:"exxon"
+  venue: "Yemen"
+  date:"2019"
+/]
 
 [img src:"./static/images/yemen_oil.png"/]
 
-### The war on food
-[Food war - Made in France](https://made-in-france.disclose.ngo/en/chapter/food-war)
+This doesn’t exonerate the Houthis either, who have been forcefully enlisting children and dropping landmines all over the place where civilians can step on them any time they want.
 
+# The war on food
 Pulitzer Investigative report The Associated Press and interviews with al-Hakimi and other officials and aid workers show that thousands of families in Taiz are not getting international food aid intended for them — often because it has been seized by armed units that are allied with the Saudi-led, American-backed military coalition fighting in Yemen. 
 
 Across Yemen, factions and militias on all sides of the conflict have blocked food aid from going to groups suspected of disloyalty, diverted it to front-line combat units or sold it for profit on the black market, according to public records and confidential documents obtained by the AP and interviews with more than 70 aid workers, government officials and average citizens from six different provinces.  
 
-
 The agency said its own investigation had found “evidence of trucks illicitly removing food from designated food distribution centers” in areas controlled by the Houthi rebels. It said it also has evidence of “fraud being perpetrated by at least one local partner organization” connected to the Houthis’ Education Ministry and responsible for distributing U.N. food aid. 
 
-Using information sourced from the Yemen Data Project ( [see note at bottom of page](https://made-in-france.disclose.ngo/en/chapter/food-war#notes) ), we have analysed the details of 19,278 aerial bombing raids recorded between March 26th 2015 and February 28th 2019. The results: these show that 30% of the bombing raids were against civilian targets. The intent of the coalition was clearly to destroy infrastructures that are essential for the survival of Yemen’s population of 28 million people.
+Using information sourced from the Yemen Data Project the French investigative journalism collective Disclose have analysed the details of 19,278 aerial bombing raids recorded between March 26th 2015 and February 28th 2019. The results show that 30% of the bombing raids were against civilian targets. The intent of the coalition was clearly to destroy infrastructures that are essential for the survival of Yemen’s population of 28 million people. [Cite 
+  authors:"Disclose"
+  title:"Food war - Made in France"
+  url:"https://made-in-france.disclose.ngo/en/chapter/food-war" 
+  id:"disclose"
+  venue: "Yemen"
+  date:"2020"
+/]
 
-[SAN20005 - Sana’a Raqqas Strike](https://yemen.bellingcat.com/investigations/san2005-sanaa-residential-house-strike)
-[DHA10002 – Sanaban Wedding Strike](https://yemen.bellingcat.com/investigations/the-yemen-project-dha10002-sanaban-wedding-strike)
+[Tweet id:"1347498168632684546" /]
 
-With proof of civilian casualties at the hands of weapons manufactured by Western economies, the UN Security Council’s Member States are in breach of the [Geneva Conventions](https://en.wikipedia.org/wiki/Geneva_Conventions)and liable for contributing to crimes against humanity. 
+Open source investigations from Bellingcat reveal civilian bombings:
+* [link text:"Sana’a Raqqas Strike" url:"https://yemen.bellingcat.com/investigations/san2005-sanaa-residential-house-strike" target:"_blank" /]
+* [link text:"Sanaban Wedding Strike" url:"https://yemen.bellingcat.com/investigations/the-yemen-project-dha10002-sanaban-wedding-strike" target:"_blank" /]
+* [link text:"the Manbah Market Strike" url:"https://yemen.bellingcat.com/investigations/saa10012-the-manbah-market-strike" target:"_blank" /]
 
-#### Yemen GeoMap (fishing, markets, water raids and food crisis).
+With proof of civilian casualties at the hands of weapons manufactured by Western economies, the UN Security Council’s Member States are in breach of the Geneva Conventions and liable for contributing to crimes against humanity. 
 
-I would like to summarise their findings here : 
-* The coalition forces have bombed **218 food markets**. In remote regions like the north-west governorate of Hajjah, inhabitants depend entirely on these markets for their food supplies. Now they have become highly dangerous sites for thousands of people.
-* [SAA10012 - The Manbah Market Strike](https://yemen.bellingcat.com/investigations/saa10012-the-manbah-market-strike)
-* https://twitter.com/tameryazar/status/683614598835126272?s=20
-* https://youtu.be/WFLv_yIm7pI
-* A total of 138 air raids targeted sites involved in the production, storage and transport of foodstuffs, including grain and flour silos, fruit and vegetable stocks, bottling plants and bakeries.
-* https://twitter.com/akram1_1/status/920366300165050368?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E920366300165050368%7Ctwgr%5E%7Ctwcon%5Es1_c10&ref_url=https%3A%2F%2Fmade-in-france.disclose.ngo%2Fen%2Fchapter%2Ffood-war%2F
-* At least **222 boats** have been destroyed both at sea and in bombings of ports along Yemen’s Red Sea coastline, while 35 small fishing boats were also destroyed. Fish markets have also been targeted by coalition raids. Out of a total of around 7,000 fishing vessels, 4,586 have halted all activity according to Yemen’s fisheries ministry. Coalition air strikes have been launched against **91 sites supplying drinking water**, including reservoirs, wells, water pumps, and also irrigation canals and water treatment plants.
+// Yemen GeoMap (fishing, markets, water raids and food crisis).
+// [LoomEmbed /]
+
+The coalition forces have bombed **218 food markets**. In remote regions like the north-west governorate of Hajjah, inhabitants depend entirely on these markets for their food supplies. Now they have become highly dangerous sites for thousands of people.
+
+[Tweet id:"683614598835126272" /]
+[Tweet id:"920366300165050368" /]
+
+[Youtube
+  id:"WFLv_yIm7pI"
+  play:false
+  audio:true
+  width:500
+  height:300
+  options:`{ controls: 1 }`
+  /]
+
+A total of 138 air raids targeted sites involved in the production, storage and transport of foodstuffs, including grain and flour silos, fruit and vegetable stocks, bottling plants and bakeries. At least 222 boats have been destroyed both at sea and in bombings of ports along Yemen’s Red Sea coastline, while 35 small fishing boats were also destroyed. Fish markets have also been targeted by coalition raids. Out of a total of around 7,000 fishing vessels, 4,586 have halted all activity according to Yemen’s fisheries ministry. Coalition air strikes have been launched against **91 sites supplying drinking water**, including reservoirs, wells, water pumps, and also irrigation canals and water treatment plants.
 
 A total of 1,140 bombing missions targeted agricultural production and the country’s food and water supplies, including farms, markets, fishing boats and reservoirs of drinking water. That figure places the food sector as the third most important military objective for the Arab coalition, behind military targets (4,250 raids) and inhabited zones (1,883 raids). According to the United Nations (UN), no less than 80% of the country’s population are in need of urgent food supplies.
 
-#### Yemen Geomap WFP Food Crisis Progression 2019 - 2021
+// Yemen Geomap WFP Food Crisis Progression 2019 - 2021
 
 The strategy of starvation is also practiced at sea. Since April 14th 2015, the date when the UN adopted a resolution for an embargo to be placed on weapons supplies to Houthi forces, warships of the coalition led by Saudi Arabia and the UAE have imposed a maritime blockade in the Red Sea. This does not respect the terms of the UN resolution, because it includes systematic interceptions of cargo shipments heading for Yemen. As a result, there have been significant delays in humanitarian aide supplies reaching the country. Delays have also been caused to shipments of vital commodities reaching the port of Hodeidah, Yemen’s principal maritime hub for imported goods.
 
@@ -368,47 +398,30 @@ The civil war in Yemen has caused the collapse of the country’s economy. Since
 
 To stave off famine, at least $1.9 billion is needed for 2021, as only $386 million in confirmed contributions have been received and, for the next six months alone, $860 million is required.  The shortage means 9 million people now receive half-rations, and without required assistance, starting in February, only quarter-rations can be provided. 
 
+// D3 Line Chart Famine Projection
 
-#### D3 Line Chart Famine Projection
-of catastrophic food insecurity could nearly triple from 16,500 currently to 47,000 people between January and June 2021.
-At the same time, today’s IPC analysis warns that the numbers of people facing Phase 4 food insecurity– the Emergency phase – is poised to increase from 3.6 million to 5 million people in the first half of 2021 – putting them too on the precipice of falling into catastrophic conditions and – without a change of course – possibly famine.
+At the same time, today’s IPC analysis warns that the numbers of people facing Phase 4 food insecurity– the Emergency phase – is poised to increase from 3.6 million to 5 million people in the first half of 2021 – putting them too on the precipice of falling into catastrophic conditions and – without a change of course – possibly famine. [Cite 
+  authors:"WFP"
+  title:"Yemen Situation Report"
+  url:"https://dss-prod-017575727556.s3.amazonaws.com/0/0/3/EXTSITREP_637516888988271214.pdf?AWSAccessKeyId=ASIAQIF4YKHCJBEVEU4K&Signature=mxDprKtPYeJeQvS8HPFcxJAWRhU%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEJz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCWV1LXdlc3QtMSJHMEUCIQCuyMokHDghbKnj%2FUbHjnWkPPNXTtelOKKMNIMh1MuJPQIgeyLv%2BxhIsDo5nUsaKWuH0RTxif1tOLyZ5rpFDRa4jtoqsAMI5f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARABGgwwMTc1NzU3Mjc1NTYiDEdkzSyaaLEmhSqg3SqEA2EErIY00kIUWxCcZIgrROzyqhJysinUK%2FZktwKrQWqcfC%2FGXTnyfZpa0K32nfhfMmvvJ7%2B3C5klHZIbfUxn40ZZZzyZHx28Ai8tqJ8brTMwMmubIVha7tIGJXcUEIzHn%2BrrV6c6P%2BqubVYcNC0ZVGQk1MFV3SNS25ISSEVUqxeqBXhL3VHEGSQjjQoqFr6m5jckruzmkBcJYmOtFEWZJ7SsC4a1aX1JxddqRlSwZ3txL9Iy1HKHFQLCD8N%2B0WzvrRjRyEZW08ZMuq0Oqh1ZJSFv6YASM9PhUF3UNYavUkdfCj8StdOT2ft3zdFeFKkIF7aEVZPupEc0lbF9IS1GGVKE6h0Gv1R%2Fkgr5RJNnEMeoNEwwGMa%2B4Wmzd%2FBu3WxPIbMafDlg6vDBSDM3i6NlvBlmv9LTJWevx%2FvtE8u92J5XKPv3lzX9M%2FMBVqYw2H69TvQ7u%2Fl2Zlrr3CKXqLK66LXHOo%2Bx4s1UJfEIdy03Abs0xI5JixLbCr5%2BJqB3i9EeCaq90S4w4PKkgwY66wFLKDTAX30IKb9UN6yTQOcgYN5INb%2Bs68f4fvLKc4xcKvQloNfHsZh7u4niGydR%2FbrkZv1vauOVgb%2FpmMVwcWfzosUMnCCtIfzw1uZ%2B4ySVnV6NXe7hU0gWgc5j3zKWDvf5WieXAVjT%2Bqe9DKbccYk6tcKqtY5TsK0%2FeZLHlwfvSY1dkcuioxW79E8x4Sq6G%2Fw%2BqEBDO%2BczA%2FIWkcAXmpwrYchXC9UFe%2FTq9wsn6aB7MiwxQ0Alu8ZRhxp%2BNR5XscEBA0jWIGV2sEA2iVtCGP9kDkyhpnO%2BGHuVV12tKMP2LlrxknNwuWK8FcG7&Expires=1617530946" 
+  id:"wfp-food"
+  venue: "Yemen"
+  date:"2021"
+/]
 
-WFP country contributions [Contributions to WFP in 2020 | World Food Programme](https://www.wfp.org/funding/2020)
-
-### Houthi terrorist designation
-The recent US designation of the Houthis as a terrorist organisation will impose dire collective punishment on the estimated 20 million people who live in Huthi-controlled areas. Yemen is a poor country in peacetime; in wartime, ordinary people have become too impoverished to pay for basic foodstuffs, leaving them increasingly dependent on extensive humanitarian aid. As detailed below, the designation will send a chill through aid agencies, which will fear running afoul of the U.S., and it could throw international trade with Yemen into a deep freeze. Food will become scarce and costlier, making it too expensive for most people to buy. This single decision could force 80 per cent of the population — 24 million people — into severe hunger.
-
-[Despite wave of violence, US to lift terrorist designation on Houthi rebels in Yemen after warnings of humanitarian crisis - ABC News](https://abcnews.go.com/Politics/wave-violence-us-lift-terrorist-designation-houthi-rebels/story?id=75854117)
-https://twitter.com/ABC/status/1357422535613313033?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1357422535613313033%7Ctwgr%5E%7Ctwcon%5Es1_c10&ref_url=https%3A%2F%2Fabcnews.go.com%2FPolitics%2Fwave-violence-us-lift-terrorist-designation-houthi-rebels%2Fstory%3Fid%3D75854117
-
-[Biden admin ends Trump-era Houthi ‘terrorist’ designation | Houthis News | Al Jazeera](https://www.aljazeera.com/news/2021/2/16/biden-admin-ends-trump-era-houthi-terrorist-designation)
-
-### Civilian stories
-They’re not just numbers.
-
-[Tweet id:"1347498168632684546" /]
-[Tweet id:"1350017791798206464" /]
-[Tweet id:"1351544955869642756" /]
-[Tweet id:"1349990675836764160" /]
 [Tweet id:"1342484338059993089" /]
 
-## Moving Forward
-The simpler solutions are : 
-
-Code Pink has a petition to reverse the Houthi designation. [Reverse the “Terrorist” Designation on the Houthis! - CODEPINK - Women for Peace](https://www.codepink.org/houthisyemen). Stay tuned to any Amnesty International petitions. [Stop the flow of weapons to Yemen | Amnesty International](https://www.amnesty.org/en/get-involved/take-action/yemen-stop-weapons-transfers/). Create online accountability and transparency.
+# What can we do?
 
 Unfortunately Yemen Peace Project closed a year ago. [Announcement: The YPP is closing — Yemen Peace Project](https://www.yemenpeaceproject.org/blog-x/ypp-closing), but the https://yemenfoundation.org/ is still active.
 
-Examples of longer solutions are detailed in this interview with Yemen’s three foremost activities, all women, [Roundtable: Three Women Activists Advancing Peace in Yemen - MERIP](https://merip.org/2019/03/roundtable-three-women-activists-advancing-peace-in-yemen/). This includes writing letters to senators and making them available online, EXAMPLE B. 
-
-**Hold me accountable**
-Github repository
-Contact me on twitter or telegram
-Pro-truth embed
-
-**Sources**
-Other data cited in this investigation comes from publicly accessible information provided by the UN Food and Agriculture Organization (FAO), the World Health Organization (WHO), and the Integrated Food Security Phase Classification (IPC), a body partnered by UN agencies, governments and NGOs to provide analyses of situations of food insecurity and malnutrition.
-
+Examples of longer solutions are detailed in [this interview with Yemen’s three foremost activists](https://merip.org/2019/03/roundtable-three-women-activists-advancing-peace-in-yemen/), all women. This includes writing letters to senators and making them available online. 
 
 [Cite.References /]
+[br /]
+Other data cited in this investigation comes from publicly accessible information provided by the UN Food and Agriculture Organization (FAO), the World Health Organization (WHO), and the Integrated Food Security Phase Classification (IPC), a body partnered by UN agencies, governments and NGOs to provide analyses of situations of food insecurity and malnutrition.
+
+## Accountability
+I signed the [Pro-Truth Pledge](https://ProTruthPledge.org), please hold me accountable.
+Contact me on [Twitter](https://twitter.com/buriedsignals) or [Telegram](https://t.me/buriedsignals), you can access the [Link text:"Github repository" url:"https://github.com/buriedsignals/yemen"/] here.
 [/section]

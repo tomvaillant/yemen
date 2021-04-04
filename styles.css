@@ -44,7 +44,7 @@ html {
 }
 
 body {
-  padding-left: 16.5%;
+  padding-left: 10.5%;
   font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
   background-color: #fffff8;
   color: #111;
@@ -173,7 +173,7 @@ section > p,
 section > footer,
 section > table,
 section > blockquote {
-  width: 55%;
+  width: 60%;
 }
 
 /* 50 + 5 == 55, to be the same width as paragraph */
@@ -253,23 +253,36 @@ a:link::-moz-selection {
 
 /* Sidenotes, margin notes, figures, captions */
 img {
-  width: 65%;
+  width: 60%;
   margin: 10px 0px;
 }
 
 img.full-width {
   width: 100%;
-  margin-left: -10%;
+  margin-left: -6%;
 }
 
-.idyll-stepper {
-  margin: 0px;
-  margin-left: -9%;
-  width: 150%;
+.quoteback-sizer {
+  width: 60%;
 }
 
 #references {
   width: 65%;
+}
+
+.loom-embed {
+  position: relative;
+  padding-bottom: 56.25%; 
+  height: 0;
+  width: 60%;
+}
+
+.loom-embed iframe {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 70%;
 }
 
 .sidenote,
@@ -284,6 +297,11 @@ img.full-width {
   line-height: 1.3;
   vertical-align: baseline;
   position: relative;
+}
+
+.marginnote img {
+  width: 100%;
+  margin: none;
 }
 
 .sidenote-number {
@@ -396,6 +414,14 @@ label.margin-toggle:not(.sidenote-number) {
   height: 0;
 }
 
+.iframe-wrapper-margin {
+  position: relative;
+  max-width: 65%;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+
 .iframe-wrapper iframe {
   position: absolute;
   top: 0;
@@ -406,9 +432,25 @@ label.margin-toggle:not(.sidenote-number) {
 
 @media (max-width: 760px) {
   body {
-      width: 84%;
-      padding-left: 8%;
-      padding-right: 8%;
+      width: 95%;
+      padding-left: 6%;
+      padding-right: 6%;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .idyll-stepper {
+    height: 350px !important;
+  }
+
+  .summary-icon-container {
+    display: none;
+  }
+
+  img.full-width {
+    margin-left: 0;
   }
 
   hr,
@@ -441,6 +483,7 @@ label.margin-toggle:not(.sidenote-number) {
   blockquote {
       margin-left: 1.5em;
       margin-right: 0em;
+      font-size: 1rem;
   }
 
   blockquote p,
@@ -461,7 +504,7 @@ label.margin-toggle:not(.sidenote-number) {
   .margin-toggle:checked + .marginnote {
       display: block;
       float: left;
-      left: 1rem;
+      /* left: 1rem; */
       clear: both;
       width: 95%;
       margin: 1rem 2.5%;
@@ -479,6 +522,13 @@ label.margin-toggle:not(.sidenote-number) {
   }
 }
 
+.margin-icon {
+  width: 20px;
+  margin: 0;
+  padding-left: 5px;
+  display: inline;
+}
+/* D3 COMPONENTS */
 .d3-component svg {
   background: #ddd;
   max-height: 300px;
@@ -490,8 +540,11 @@ label.margin-toggle:not(.sidenote-number) {
   }
 }
 
+
+/* SUMMARY STYLING */
+
 #summary-fixed {
-  position: absolute;
+  position: fixed;
   top: 33%;
   left: 20px;
   background-color: white;
@@ -521,7 +574,6 @@ label.margin-toggle:not(.sidenote-number) {
   visibility: visible;
   height: 370px;
   z-index: 20;
-  transition: opacity 0.35s, visibility 0.35s, width 1s;
 }
 
 .summary-icon-container {
