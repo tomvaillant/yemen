@@ -40,9 +40,9 @@ class SummaryComponent extends React.Component {
           <li onClick={() => this.scrollTo(5)}>1900s (South Yemen)</li>
           <li onClick={() => this.scrollTo(6)}>1900s (North Yemen)</li>
           <li onClick={() => this.scrollTo(7)}>1950s (Soviet Collapse)</li>
-          <li onClick={() => this.scrollTo(200)}>2000s (Civil War)</li>
+          <li onClick={() => this.scrollTo(8)}>2000s (Civil War)</li>
           <li onClick={() => this.scrollTo(9)}>2010 (Iran)</li>
-          <li onClick={() => this.scrollTo(23)}>2015 (War on food)</li>
+          <li onClick={() => this.scrollTo(10)}>2015 (War on food)</li>
           <li onClick={() => this.scrollTo(11)}>References</li>
         </ul>
       </div>

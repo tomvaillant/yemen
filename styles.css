@@ -262,18 +262,13 @@ img.full-width {
   margin-left: -6%;
 }
 
-.quoteback-sizer {
-  width: 60%;
-}
-
 #references {
-  width: 100%;
+  width: 65%;
 }
 
 .loom-embed {
   position: relative;
-  padding-bottom: 56.25%; 
-  height: 0;
+  height: 365px;
   width: 60%;
 }
 
@@ -282,7 +277,7 @@ img.full-width {
   top: 0; 
   left: 0; 
   width: 100%; 
-  height: 70%;
+  height: 100%;
 }
 
 .sidenote,
@@ -291,8 +286,8 @@ img.full-width {
   clear: right;
   margin-right: -60%;
   width: 50%;
-  margin-top: 0.3rem;
   margin-bottom: 0;
+  margin-top: -50px;
   font-size: 1.1rem;
   line-height: 1.3;
   vertical-align: baseline;
@@ -302,6 +297,11 @@ img.full-width {
 .marginnote img {
   width: 100%;
   margin: none;
+}
+
+.marginnote ul {
+  font-size: 1em;
+  line-height: 1.15;
 }
 
 .sidenote-number {
@@ -542,15 +542,22 @@ label.margin-toggle:not(.sidenote-number) {
   transform: translateY(-9px) rotate(-45deg);
 }
 
+.quoteback-sizer {
+  width: 60%;
+}
 
 @media (max-width: 760px) {
+
+  .loom-embed {
+    width: 100%;
+  }
 
   .summary-icon-container {
     top: 2%;
   }
 
   #summary-fixed {
-    top: 8%;
+    top: 10%;
     left: 10px;
     box-shadow: 0 0 5px #2B2D2F;
   }
@@ -577,17 +584,13 @@ label.margin-toggle:not(.sidenote-number) {
     margin-left: 0;
   }
 
-  .quoteback-sizer {
-    width: 100%;
-  }
-
   hr,
   section > p,
   section > footer,
   section > table {
     width: 97%;
-    text-align: justify;
-    font-size: 1.2em;
+    text-align: left;
+    font-size: 1.1em;
   }
 
   pre > code {
