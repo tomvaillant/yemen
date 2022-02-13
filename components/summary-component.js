@@ -16,6 +16,7 @@ class SummaryComponent extends React.Component {
   }
 
   scrollTo(props) {
+    console.log(props);
     document.getElementsByClassName(`scroll-${props}`)[0].scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
     console.log(document.getElementsByClassName(`scroll-${props}`)[0]);
   }
